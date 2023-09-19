@@ -32,12 +32,34 @@ export default function Home() {
             <AiFillGithub/>
           </div>
 
-          <div className='relative mt-20 mx-auto flex bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  '>
-            <Image className=' rounded-md   '  src={manu} />
+          <div className='relative mt-20 mx-auto flex bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden  '>
+            <Image layout='fill' objectFit='cover'  src={manu} />
           </div>
 
 
         </section>
+
+       
+        <section>
+          <div>
+            <h3 className='text-3xl py-1 text-teal-600 '>Services I offer</h3>
+            <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
+              with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
+              Vue and React. ALso Back-end web Application with Dj'ango framework.
+            </p>
+
+            <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
+              with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
+              Vue and React. ALso Back-end web Application with Dj'ango framework.
+            </p>
+          
+           
+
+            
+          </div>
+        </section>
+
+
       </main>
    </div>
   )
