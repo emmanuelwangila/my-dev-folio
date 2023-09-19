@@ -3,11 +3,12 @@ import Image from 'next/image'
 import manu from '../public/manu.jpg';
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import {BiLogoReact, BiLogoBootstrap, BiLogoDjango, BiLogoNetlify, BiLogoVuejs, BiLogoJavascript} from 'react-icons/bi'
 
 export default function Home() {
   return (
    <div>
-      <main className='px-10 bg-white '>
+      <main className='px-10 bg-slate-100 '>
         <section className='min-h-screen  w-full ' >
           <nav className='flex justify-between py-10 sm:py-5  mb-12 '>
             <h1 className='text-md text-blue-700  font-sans  cursor-pointer '>developedbyWangila</h1>
@@ -52,10 +53,26 @@ export default function Home() {
               with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
               Vue and React. ALso Back-end web Application with Dj'ango framework.
             </p>
-          
-           
+          </div>
 
-            
+          <div>
+            <div className='shadow-lg py-10 mb-10 '>
+              <h3 className='text-teal-600 text-3xl '>Technologies I use</h3>
+              <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> 
+              I'm a software developer doing great designs and website's,
+              with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
+              Vue and React. ALso Back-end web Application with Dj'ango framework.
+            </p>
+              <div className='text-5xl flex px-8 mx-auto  gap-16 text-gray-500 py-10 '>
+              <BiLogoReact/>
+              <BiLogoBootstrap/>
+              <BiLogoDjango/>
+              <BiLogoNetlify/>
+              <BiLogoJavascript/>
+              <BiLogoVuejs/>
+
+              </div>
+            </div>
           </div>
         </section>
 
