@@ -3,10 +3,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-   <div className='flex w-full h-screen m-3 p-4 justify-center '>
-
+   <div>
       <main>
-        <h1>Emmanuel Wangila</h1>
+        <section className='flex   min-h-screen  w-full ' >
+          <h1>Hello</h1>
+        </section>
       </main>
    </div>
   )
