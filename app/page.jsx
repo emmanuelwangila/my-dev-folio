@@ -33,13 +33,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillTwitterCircle/>
-            <AiFillLinkedin/>
-            <AiFillGithub/>
+          <div className='text-5xl flex cursor-pointer justify-center gap-16 py-3 text-gray-600'>
+             <a href={'https//github.com/emmanuelwangila'}> <AiFillTwitterCircle/> </a> 
+             <a href={'https//github.com/emmanuelwangila'}> <AiFillTwitterCircle/> </a> 
+             <a href={'https//github.com/emmanuelwangila'}> <AiFillTwitterCircle/> </a> 
           </div>
 
-          <div className='relative mt-20 mx-auto flex bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden  '>
+          <div className='relative mt-20 mx-auto flex bg-gradient-to-b from-teal-500  w-80 h-80 overflow-hidden  '>
             <Image layout='fill' objectFit='cover'  src={manu} />
           </div>
 
@@ -48,8 +48,8 @@ export default function Home() {
 
        
         <section>
-          <div>
-            <h3 className='text-3xl py-1 text-teal-600 '>Services I offer</h3>
+          <div className='border-2 rounded-md  mt-4 mb-5 '>
+            <h3 className='text-5xl py-10 mb-5 font-sans flex justify-center text-blue-500 '>Services I offer</h3>
             <p className=' font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
               with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
               Vue and React. ALso Back-end web Application with Dj'ango framework.
@@ -62,15 +62,15 @@ export default function Home() {
           </div>
 
           <div>
-            <div className='shadow-lg py-10 mb-10 '>
-              <h3 className='text-teal-600 text-3xl '>Technologies I use</h3>
-              <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> 
+            <div className='shadow-lg border-2 rounded-md border-teal-600  py-10 mb-10 '>
+              <h3 className='text-blue-500  py-5 font-sans mx-4 flex  text-5xl justify-center '>Technologies I use</h3>
+              <p className=' font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center'> 
               I'm a software developer doing great designs and website's,
               with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
               Vue and React. ALso Back-end web Application with Dj'ango framework.
             </p>
-              <div className='text-5xl flex px-8 mx-auto  gap-16 text-gray-500 py-10 '>
-              <BiLogoReact/>
+              <div className='text-5xl font-bold flex px-8 mx-auto justify-center  gap-16 text-blue-500 py-10 '>
+              <BiLogoReact className=' '/>
               <BiLogoBootstrap/>
               <BiLogoDjango/>
               <BiLogoNetlify/>
@@ -79,6 +79,16 @@ export default function Home() {
 
               </div>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className='flex justify -center py-10 mb-5 rounded-md shadow-lg'>
+            <h3 className='text-teal-600 ml-4 '>Project's I have Done</h3>
+            <div className='flex justify-center m-4 p-5 '>
+              Meta Verse Web-Page Application
+
+            </div>
+
           </div>
         </section>
 
