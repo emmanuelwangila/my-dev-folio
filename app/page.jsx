@@ -35,8 +35,8 @@ export default function Home() {
 
           <div className='text-5xl flex cursor-pointer justify-center gap-16 py-3 text-gray-600'>
              <a href={'https//github.com/emmanuelwangila'}> <AiFillTwitterCircle/> </a> 
-             <a href={'https//github.com/emmanuelwangila'}> <AiFillTwitterCircle/> </a> 
-             <a href={'https//github.com/emmanuelwangila'}> <AiFillTwitterCircle/> </a> 
+             <a href={'https//github.com/emmanuelwangila'}> <AiFillLinkedin/> </a> 
+             <a href={'https//github.com/emmanuelwangila'}> <AiFillGithub/> </a> 
           </div>
 
           <div className='relative mt-20 mx-auto flex bg-gradient-to-b from-teal-500  w-80 h-80 overflow-hidden  '>
