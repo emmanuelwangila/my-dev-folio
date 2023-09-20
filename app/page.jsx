@@ -1,27 +1,33 @@
+'use client'
 import Head from 'next/head'
 import Image from 'next/image'
 import manu from '../public/manu.jpg';
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {BiLogoReact, BiLogoBootstrap, BiLogoDjango, BiLogoNetlify, BiLogoVuejs, BiLogoJavascript} from 'react-icons/bi'
+import { useState } from 'react';
 
 export default function Home() {
+
+  const [darkMode, setDarkMode] = useState(false);
+
+
   return (
-   <div>
-      <main className='px-10 bg-slate-100 '>
+   <div className={darkMode ? "dark" : ''}>
+      <main className='px-10 bg-slate-100  dark:bg-black'>
         <section className='min-h-screen  w-full ' >
           <nav className='flex justify-between py-10 sm:py-5  mb-12 '>
             <h1 className='text-md text-blue-700  font-sans  cursor-pointer '>developedbyWangila</h1>
-            <ul className='flex items-end'>
-              <li className='text-2xl cursor-pointer' ><BsFillMoonStarsFill/> </li>
+            <ul className='flex items-end'>.
+              <li className='text-2xl cursor-pointer dark:text-white' ><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} /> </li>
               <li className='bg-gradient-to-r from bg-blue-500 rounded-md border-none px-4 ml-8 text-white'><a href=''>Resume</a></li>
             </ul>
           </nav>
 
           <div className="p-8 text-center">
-            <h2 className='py-2 text-5xl font-sans text-blue-600'>Emmanuel Wangila </h2>
+            <h2 className='py-2 text-5xl font-sans text-blue-600 dark:text-white '>Emmanuel Wangila </h2>
             <h3 className='py-2 text-2xl font-burtons text-teal-500'>Front-End Developer and Designer</h3>
-            <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
+            <p className=' font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
               with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
               Vue and React. ALso Back-end web Application with Dj'ango framework.
             </p>
@@ -44,12 +50,12 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1 text-teal-600 '>Services I offer</h3>
-            <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
+            <p className=' font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
               with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
               Vue and React. ALso Back-end web Application with Dj'ango framework.
             </p>
 
-            <p className=' font-medium text-gray-600  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
+            <p className=' font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center'> I'm a software developer doing great designs and website's,
               with the best UI/UX , <br/>I have good experience with JavaScript frameworks,
               Vue and React. ALso Back-end web Application with Dj'ango framework.
             </p>
