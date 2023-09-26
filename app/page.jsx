@@ -43,7 +43,7 @@ export default function Home() {
              <a href={'https://www.linkedin.com/in/emmanuel-wangila/'}> <AiFillLinkedin className='text-5xl'/> </a> 
              <a href={'https://github.com/emmanuelwangila'}> <AiFillGithub className='text-5xl'/> </a> 
              
-          </div>s
+          </div>
 
           <div className='relative  mt-20 lg:mx-auto sm:mx-3  flex gap-10    bg-gradient-to-b from-teal-500 w-80 h-80 overflow-hidden rounded-full     '>
             <Image layout='fill' objectFit='cover'  src={manu} />
