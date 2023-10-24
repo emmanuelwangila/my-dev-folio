@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 export default function Home() {
 
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
 
   return (
@@ -135,15 +135,15 @@ export default function Home() {
         </section>
         <section>
           <h3 className='text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 '>Contact Me</h3>
-          <div className='flex justify-center mt-5 mb-5 rounded-md '>
+          <div className='flex justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500'>
               <form method='POST' className='flex flex-col justify-center  dark:bg-black bg-white rounded-md w-full h-full mt-4 py-4 '>
-                <input className="p-4 m-2 rounded-md  bg-gray-100  w-[50%] border border-blue-300" id='name' placeholder="enetr your name"></input>
-                <input className="name p-4 m-2  w-[50%] bg-gray-100 rounded-md border border-blue-300 " id='phone' placeholder="enetr your phoneNumber"></input>
-                <input className="name p-4 m-2 w-[50%] border border-blue-300 bg-gray-100 rounded-md"  id='location' placeholder="enter your location"></input>
-                <textarea className='p-6 m-2 w-[50%] bg-gray-200 border border-blue-300 rounded-md  ' placeholder='input your message here '>
+                <input className="p-3 m-2 rounded-md  bg-gray-100  w-[60%] border border-blue-300" id='name' placeholder="enetr your name"></input>
+                <input className="name p-3 m-2  w-[60%] bg-gray-100 rounded-md border border-blue-300 " id='phone' placeholder="enetr your phoneNumber"></input>
+                <input className="name p-3 m-2 w-[60%] border border-blue-300 bg-gray-100 rounded-md"  id='location' placeholder="enter your location"></input>
+                <textarea className='p-3 m-2 w-[60%] bg-gray-200 border border-blue-300 rounded-md  ' placeholder='input your message here '>
 
                 </textarea>
-                <button className='p-4 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md '>Submit</button>
+                <button className='p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md '>Submit</button>
                 
               </form>
               
