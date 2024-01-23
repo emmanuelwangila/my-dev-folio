@@ -61,7 +61,7 @@ export default function Home() {
           </div>
 
           <div className=" flex cursor-pointer justify-center gap-16 py-3 text-gray-600">
-            <a href={"https://twitter.com/Emmanuelwangi17"}>
+            <a href={"https://twitter.com/manuelwangila"}>
               {" "}
               <AiFillTwitterCircle className="text-5xl" />{" "}
             </a>
@@ -181,28 +181,28 @@ export default function Home() {
           <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
             Contact Me
           </h3>
-          <div className="flex justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
+          <div className="flex w-[60%] justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
             <form
               method="POST"
-              className="flex flex-col justify-center  dark:bg-black bg-white rounded-md w-full h-full mt-4 py-4 "
+              className="flex w-[70%] flex-col justify-start items-center  dark:bg-black bg-white rounded-md  h-full mt-4 py-4 "
             >
               <input
-                className="p-3 m-2 rounded-md  bg-gray-100  w-[60%] border border-blue-300"
+                className="p-3 m-2 rounded-md  bg-gray-100  w-[50%] border border-blue-300"
                 id="name"
                 placeholder="Enter  your name"
               ></input>
               <input
-                className="name p-3 m-2  w-[60%] bg-gray-100 rounded-md border border-blue-300 "
+                className="name p-3 m-2  w-[50%] bg-gray-100 rounded-md border border-blue-300 "
                 id="phone"
                 placeholder="Enter your phoneNumber"
               ></input>
               <input
-                className="name p-3 m-2 w-[60%] border border-blue-300 bg-gray-100 rounded-md"
+                className="name p-3 m-2 w-[50%] border border-blue-300 bg-gray-100 rounded-md"
                 id="location"
                 placeholder="Enter your location"
               ></input>
               <textarea
-                className="p-3 m-2 w-[60%] bg-gray-200 border border-blue-300 rounded-md  "
+                className="p-3 m-2 w-[50%] bg-gray-200 border border-blue-300 rounded-md  "
                 placeholder="Input your message here "
               ></textarea>
               <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md ">
@@ -215,7 +215,7 @@ export default function Home() {
           <div className="border border-b border-blue-300 text-teal-600 sm:flex-wrap font-sans flex justify-between m-4 p-4 rounded-md">
             <h3>Developedby Emmanuel Wangila</h3>
             <h4>phone: 0798719417</h4>
-            <h4>@2023 All Rights Reserved</h4>
+            <h4>@2024 All Rights Reserved</h4>
           </div>
         </section>
       </main>
