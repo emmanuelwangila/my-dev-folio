@@ -8,6 +8,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
+  AiFillReact,
 } from "react-icons/ai";
 import {
   BiLogoReact,
@@ -21,6 +22,38 @@ import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+
+    const formUrl = "https://formspree.io/f/xnqejply"; // Replace with your Formspree endpoint
+
+    const formData = {
+      name: e.target.name.value,
+      phone: e.target.phone.value,
+      location: e.target.location.value,
+      message: e.target.message.value,
+    };
+
+    try {
+      const response = await fetch(formUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        console.log("Form submitted successfully");
+        // You can perform additional actions after successful submission
+      } else {
+        console.error("Form submission failed");
+      }
+    } catch (error) {
+      console.error("Error during form submission:", error);
+    }
+  };
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -131,7 +164,7 @@ export default function Home() {
                 projects to be undertaken with confidence.
               </p>
               <div className="text-5xl font-bold flex px-8 mx-auto justify-center  gap-16 dark:text-teal-600 text-blue-500 py-10 ">
-                <BiLogoReact className=" " />
+                <BiLogoReact className="" />
                 <BiLogoBootstrap />
                 <BiLogoDjango />
                 <BiLogoNetlify />
@@ -181,28 +214,33 @@ export default function Home() {
           <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
             Contact Me
           </h3>
-          <div className="flex w-[60%] justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
+          <div className="flex lg:w-[60%]  md:w-[60%] justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
             <form
+              onSubmit={handleFormSubmit}
               method="POST"
-              className="flex w-[70%] flex-col justify-start items-center  dark:bg-black bg-white rounded-md  h-full mt-4 py-4 "
+              className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-start items-center  dark:bg-black  rounded-md  h-full mt-4 py-4 "
             >
               <input
-                className="p-3 m-2 rounded-md  bg-gray-100  w-[50%] border border-blue-300"
+                className="p-3 m-2  w-full rounded-md   bg-gray-100   border border-blue-300"
                 id="name"
+                name="name"
                 placeholder="Enter  your name"
               ></input>
               <input
-                className="name p-3 m-2  w-[50%] bg-gray-100 rounded-md border border-blue-300 "
+                className="name p-3 m-2  w-full bg-gray-100 rounded-md border border-blue-300 "
                 id="phone"
+                name="phone"
                 placeholder="Enter your phoneNumber"
               ></input>
               <input
-                className="name p-3 m-2 w-[50%] border border-blue-300 bg-gray-100 rounded-md"
+                className="name p-3 m-2 w-full border border-blue-300 bg-gray-100 rounded-md"
                 id="location"
+                name="location"
                 placeholder="Enter your location"
               ></input>
               <textarea
-                className="p-3 m-2 w-[50%] bg-gray-200 border border-blue-300 rounded-md  "
+                name="message"
+                className="p-3 m-2 w-full bg-gray-200 border border-blue-300 rounded-md  "
                 placeholder="Input your message here "
               ></textarea>
               <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md ">
@@ -212,7 +250,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="border border-b border-blue-300 text-teal-600 sm:flex-wrap font-sans flex justify-between m-4 p-4 rounded-md">
+          <div className="border  lg:w-[60%] md:w-[60%] sm:w-[100%] border-b border-blue-300 text-teal-600  font-sans  m-4 p-4 rounded-md">
             <h3>Developedby Emmanuel Wangila</h3>
             <h4>phone: 0798719417</h4>
             <h4>@2024 All Rights Reserved</h4>
