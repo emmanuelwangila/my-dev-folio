@@ -91,32 +91,36 @@ export default function Home() {
               applications or designing engaging user interfaces, I would love
               to think that my front-end skills are second to none.
             </p>
+
+            <div className="flex flex-col text-3xl  ">
+              <h1 className="text-blue-500 font-sans ">Social Links : </h1>
+            </div>
           </div>
 
           <div className=" flex cursor-pointer justify-center gap-16 py-3 text-gray-600">
             <a href={"https://twitter.com/manuelwangila"}>
               {" "}
-              <AiFillTwitterCircle className="text-5xl" />{" "}
+              <AiFillTwitterCircle className="lg:text-8xl md:text-5xl  sm:text-4xl " />{" "}
             </a>
             <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
               {" "}
-              <AiFillLinkedin className="text-5xl" />{" "}
+              <AiFillLinkedin className="lg:text-8xl md:text-5xl sm:text-4xl" />{" "}
             </a>
             <a href={"https://github.com/emmanuelwangila"}>
               {" "}
-              <AiFillGithub className="text-5xl" />{" "}
+              <AiFillGithub className="lg:text-8xl  sm:text-4xl" />{" "}
             </a>
-          </div>
-
-          <div className="relative  mt-20 lg:mx-auto sm:mx-3  flex gap-10    bg-gradient-to-b from-teal-500 w-80 h-80 overflow-hidden rounded-full     ">
-            <Image layout="fill" objectFit="cover" src={manu} />
           </div>
         </section>
 
         <section>
-          <div className="   bg-white  dark:bg-black rounded-md  mt-4 mb-5 ">
-            <h3 className="text-3xl py-5 font-sans flex justify-center dark:text-teal-500  text-blue-500 ">
-              Services I offer
+          <div className="  dark:bg-black rounded-md  mt-4 mb-5 ">
+            <div className="flex justify-center text-blue-500  font-sans text-4xl ">
+              <h2>Brief Description :</h2>
+            </div>
+
+            <h3 className="text-5xl py-5 font-sans flex justify-center dark:text-teal-500  text-blue-500 ">
+              About
             </h3>
             <p className=" font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6  justify-center">
               {" "}
@@ -143,8 +147,8 @@ export default function Home() {
           </div>
 
           <div>
-            <div className=" bg-white  dark:bg-black  rounded-md border-teal-600  py-10 mb-10 ">
-              <h3 className="text-blue-500 dark:text-teal-600 py-5 font-sans mx-4 flex  text-3xl justify-center ">
+            <div className="  dark:bg-black  rounded-md border-teal-600  py-10 mb-10 ">
+              <h3 className="text-blue-500 dark:text-teal-600 py-5 font-sans mx-4 flex  text-5xl justify-center ">
                 Stack
               </h3>
               <p className=" font-medium m-4  text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
@@ -176,11 +180,11 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h1 className="text-3xl mx-3 py-3  text-blue-500  font-sans  dark:text-teal-600">
+            <h1 className="text-5xl mx-3 py-3 flex  justify-center  text-blue-500  font-sans  dark:text-teal-600">
               Experience{" "}
             </h1>
 
-            <div className="grid grid-cols-2 bg-white dark:bg-black sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
+            <div className="grid grid-cols-2  dark:bg-black sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
               <p className=" grid-flow-col m-3  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
                 Component-Based Architecture: I'm proficient in creating
                 reusable UI components, which is a core concept in React. State
