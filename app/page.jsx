@@ -78,8 +78,8 @@ export default function Home() {
             <h2 className="py-2 text-5xl font-sans text-blue-600 dark:text-teal-600 ">
               Emmanuel Wangila{" "}
             </h2>
-            <h3 className="py-2 text-2xl font-burtons dark:text-teal-600 text-blue-500">
-              Front-End Developer and Designer
+            <h3 className="py-2 text-3xl  font-sans dark:text-teal-600 text-blue-500">
+              Full Stack Developer
             </h3>
             <p className=" font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
               {" "}
