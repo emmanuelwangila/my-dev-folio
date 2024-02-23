@@ -5,7 +5,6 @@ import manu from "../public/manu.jpg";
 import laptop from "../public/laptop.jpg";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import About from "../components/About";
-import { TypeAnimation } from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -72,6 +71,23 @@ export default function Home() {
           </nav>
 
           <div className="p-8 text-center">
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "We produce food for Mice",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "We produce food for Hamsters",
+                1000,
+                "We produce food for Guinea Pigs",
+                1000,
+                "We produce food for Chinchillas",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: "2em", display: "inline-block" }}
+              repeat={Infinity}
+            />
             <h2 className="py-2 text-5xl font-sans text-blue-600 dark:text-teal-600 ">
               Emmanuel Wangila{" "}
             </h2>
