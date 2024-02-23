@@ -5,6 +5,7 @@ import manu from "../public/manu.jpg";
 import laptop from "../public/laptop.jpg";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import About from "../components/About";
+import { TypeAnimation } from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -13,6 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { useState } from "react";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
