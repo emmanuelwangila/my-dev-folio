@@ -16,7 +16,7 @@ import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -70,7 +70,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="p-8 text-center">
+          <div className=" flex flex-col   text-center">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -88,30 +88,34 @@ export default function Home() {
               style={{
                 fontSize: "3em",
                 color: "blue",
-                display: "block",
-                backgroundColor: "bg-500", // assuming bg-500 is a Tailwind CSS class
+                display: "flex",
+                backgroundColor: "bg-500",
+                margin: "5px",
+                justifyContent: "center",
+                justifyItems: "center", // assuming bg-500 is a Tailwind CSS class
               }}
               repeat={Infinity}
             />
 
-            {/* <h2 className="py-2 text-5xl font-sans text-blue-600 dark:text-teal-600 ">
-              Emmanuel Wangila{" "}
-            </h2>
-            <h3 className="py-2 text-3xl  font-sans dark:text-teal-600 text-blue-500">
-              Full Stack Developer
-            </h3> */}
-            <p className=" font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
+            <div className="font-medium text-gray-600 dark:text-white  py-5 leading-9 ">
               {" "}
-              In the realm of front-end development, I'm proficient in utilizing
-              popular JavaScript frameworks such as React and Vue. My mastery of
-              these libraries allows me to craft elegant and responsive user
-              interfaces that not only look stunning but also deliver
-              exceptional user experiences. Whether it's building dynamic web
-              applications or designing engaging user interfaces, I would love
-              to think that my front-end skills are second to none.
-            </p>
+              <div className=" w-[50% ] m-2 p-2 rounde-md">
+                I'm a Full Stack developer, in the realm of front-end
+                development, I'm proficient in utilizing popular JavaScript
+                frameworks such as React and Vue.
+                <br />
+                My mastery of these libraries allows me to craft elegant and
+                responsive user interfaces that not only look stunning but also
+                <br />
+                deliver exceptional user experiences. Whether it's building
+                dynamic web applications or designing engaging user interfaces,
+                <br />
+                Also back-end intergration and modeling of the server to
+                communicate via API's to the client side and database design.
+              </div>
+            </div>
 
-            <div className="flex flex-col text-3xl  ">
+            <div className="flex flex-col text-2xl  ">
               <h1 className="text-blue-500 font-sans ">Social Links : </h1>
             </div>
           </div>
@@ -130,10 +134,11 @@ export default function Home() {
               <AiFillGithub className="lg:text-8xl  sm:text-4xl" />{" "}
             </a>
           </div>
+
+          <div className="m-2 p-2 ">
+            <About />
+          </div>
         </section>
-        <div>
-          <About />
-        </div>
 
         <section>
           <div>

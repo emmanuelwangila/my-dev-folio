@@ -13,10 +13,8 @@ const About = () => {
   return (
     <div className="flex rounded-md ">
       <section>
-        <div className="  dark:bg-black rounded-md  mt-4 mb-5 ">
-          <div className="flex justify-center text-blue-500  font-sans text-4xl ">
-            <h2>Brief Description :</h2>
-          </div>
+        <div className="  dark:bg-black rounded-md  mt-4  ">
+          <div className="flex justify-center text-blue-500  font-sans text-4xl "></div>
 
           <h3 className="text-5xl py-5 font-sans flex justify-center dark:text-teal-500  text-blue-500 ">
             About
