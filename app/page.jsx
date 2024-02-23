@@ -78,7 +78,7 @@ export default function Home() {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Web and  Mobile app  Developer  ",
                 1000,
-                "React Native, TypeScript EXpress , Node JS",
+                " Full Stack engineer ",
                 1000,
                 "Stay in touch",
                 1000,
