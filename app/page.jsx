@@ -74,20 +74,26 @@ export default function Home() {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "We produce food for Mice",
+                "Emmanuel Wangila",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "We produce food for Hamsters",
+                "Full Stack Developer and Mobile app  Developer || ",
                 1000,
-                "We produce food for Guinea Pigs",
+                "React Native, TypeScript EXpress , Node JS",
                 1000,
-                "We produce food for Chinchillas",
+                "Stay in touch",
                 1000,
               ]}
               wrapper="span"
               speed={50}
-              style={{ fontSize: "2em", display: "inline-block" }}
-              repeat={Infinity}
+              style={{
+                fontSize: "3em",
+                color: "blue",
+                display: "inline-block",
+                backgroundColor: "bg-500", // assuming bg-500 is a Tailwind CSS class
+              }}
+              repeat={4}
             />
+
             <h2 className="py-2 text-5xl font-sans text-blue-600 dark:text-teal-600 ">
               Emmanuel Wangila{" "}
             </h2>
