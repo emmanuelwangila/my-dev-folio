@@ -89,6 +89,8 @@ export default function Home() {
                 fontSize: "3em",
                 color: "blue",
                 display: "flex",
+                font: "bold",
+                fontFamily: "sans",
                 backgroundColor: "bg-500",
                 margin: "5px",
                 justifyContent: "center",

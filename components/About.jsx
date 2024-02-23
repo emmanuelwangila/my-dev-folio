@@ -16,7 +16,7 @@ const About = () => {
         <div className="  dark:bg-black rounded-md  mt-4  ">
           <div className="flex justify-center text-blue-500  font-sans text-4xl "></div>
 
-          <h3 className="text-5xl py-5 font-sans flex justify-center dark:text-teal-500  text-blue-500 ">
+          <h3 className="text-5xl py-5 font-sans flex justify-start w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
             About
           </h3>
           <p className=" font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6  justify-center">

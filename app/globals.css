@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.app {
+  font-family: sans-serif;
+}
