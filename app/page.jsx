@@ -76,7 +76,7 @@ export default function Home() {
                 // Same substring at the start will only be typed out once, initially
                 "Emmanuel Wangila",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Full Stack Developer and Mobile app  Developer || ",
+                "Web and  Mobile app  Developer  ",
                 1000,
                 "React Native, TypeScript EXpress , Node JS",
                 1000,
@@ -88,18 +88,18 @@ export default function Home() {
               style={{
                 fontSize: "3em",
                 color: "blue",
-                display: "inline-block",
+                display: "block",
                 backgroundColor: "bg-500", // assuming bg-500 is a Tailwind CSS class
               }}
-              repeat={4}
+              repeat={Infinity}
             />
 
-            <h2 className="py-2 text-5xl font-sans text-blue-600 dark:text-teal-600 ">
+            {/* <h2 className="py-2 text-5xl font-sans text-blue-600 dark:text-teal-600 ">
               Emmanuel Wangila{" "}
             </h2>
             <h3 className="py-2 text-3xl  font-sans dark:text-teal-600 text-blue-500">
               Full Stack Developer
-            </h3>
+            </h3> */}
             <p className=" font-medium text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
               {" "}
               In the realm of front-end development, I'm proficient in utilizing
