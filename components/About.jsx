@@ -19,16 +19,20 @@ const About = () => {
           <h3 className="text-5xl py-5 font-sans flex justify-start w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
             About
           </h3>
-          <p className=" font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6  justify-center">
+          <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[60%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
             {" "}
             I'm a software developer doing great designs and website's, Web
-            Application Development: Create web applications using React and Vue
-            to deliver responsive, dynamic, and interactive user interfaces.
-            User Interface (UI) Design: Design visually appealing and
-            user-friendly interfaces that enhance the overall user experience.
-            Single Page Applications (SPAs): Build SPAs that load once and
-            dynamically update content without requiring full-page refreshes,
-            providing a smoother user experience.
+            Application Development: <br />
+            Create web applications using React and Vue to deliver responsive,
+            dynamic, and interactive user interfaces.
+            <br />
+            User Interface (UI) Design: <br />
+            Design visually appealing and user-friendly interfaces that enhance
+            the overall user experience.
+            <br />
+            Single Page Applications (SPAs): <br />
+            Build SPAs that load once and dynamically update content without
+            requiring full-page refreshes, providing a smoother user experience.
           </p>
 
           <p className=" font-medium text-gray-600 m-4  dark:text-white  py-5 leading-8 flex justify-center">

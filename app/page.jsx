@@ -67,6 +67,12 @@ export default function Home() {
               <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
                 <a href="">Home</a>
               </li>
+              <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
+                <a href="/about">About</a>
+              </li>
+              <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
+                <a href="">Stack</a>
+              </li>
             </ul>
           </nav>
 
