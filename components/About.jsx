@@ -1,5 +1,5 @@
+// About.js
 import React from "react";
-
 import {
   BiLogoReact,
   BiLogoBootstrap,
@@ -8,6 +8,7 @@ import {
   BiLogoVuejs,
   BiLogoJavascript,
 } from "react-icons/bi";
+import "../app/globals.css";
 
 const About = () => {
   return (
@@ -68,13 +69,25 @@ const About = () => {
               development, and allowing for a wide range of web development
               projects to be undertaken with confidence.
             </p>
-            <div className="text-5xl font-bold flex px-8 mx-auto justify-center  gap-16 dark:text-teal-600 text-blue-500 py-10 ">
-              <BiLogoReact className="" />
-              <BiLogoBootstrap />
-              <BiLogoDjango />
-              <BiLogoNetlify />
-              <BiLogoJavascript />
-              <BiLogoVuejs />
+            <div className="text-5xl font-bold flex px-8 mx-auto justify-center  gap-16 dark:text-teal-600 text-blue-500 py-10 icons-container">
+              <div className="icon">
+                <BiLogoReact className="icon-item" />
+              </div>
+              <div className="icon">
+                <BiLogoBootstrap className="icon-item" />
+              </div>
+              <div className="icon">
+                <BiLogoDjango className="icon-item" />
+              </div>
+              <div className="icon">
+                <BiLogoNetlify className="icon-item" />
+              </div>
+              <div className="icon">
+                <BiLogoJavascript className="icon-item" />
+              </div>
+              <div className="icon">
+                <BiLogoVuejs className="icon-item" />
+              </div>
             </div>
           </div>
         </div>
