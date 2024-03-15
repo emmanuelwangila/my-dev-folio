@@ -8,9 +8,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className="flex flex-col  gap-4 ">
-        <h2 className="dark:text-white text-blue-500 ">
-          Tender Management System
-        </h2>
+        <h2 className=" text-blue-500 ">Tender Management System</h2>
         <div>
           <p className="dark:text-white flex flex-col m-2  ">
             This is a Tender Management Software system, enabling people to
