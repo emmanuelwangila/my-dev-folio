@@ -71,35 +71,39 @@ const About = () => {
               React, Vue, and Django are three powerful tools in the web
               development toolkit. React, a JavaScript library, excels in
               creating dynamic and reusable user interfaces with its virtual DOM
-              and component-based architecture. Vue, another JavaScript
-              framework, offers flexibility and simplicity for building modern
-              web applications with its reactivity system and component-driven
-              approach. On the back-end, Django, a Python web framework,
-              provides a robust, secure, and highly modular platform for
-              building web applications, complete with an ORM, authentication,
-              and an admin interface. Together, these technologies empower
-              developers to create efficient, interactive, and feature-rich web
-              applications, covering both front-end and back-end aspects of
-              development, and allowing for a wide range of web development
-              projects to be undertaken with confidence.
+              and component-based architecture. <br />
+              Vue, another JavaScript framework, offers flexibility and
+              simplicity for building modern web applications with its
+              reactivity system and component-driven approach.
+              <br />
+              On the back-end, Django, a Python web framework, provides a
+              robust, secure, and highly modular platform for building web
+              applications, complete with an ORM, authentication, and an admin
+              interface.
+              <br />
+              Together, these technologies empower developers to create
+              efficient, interactive, and feature-rich web applications,
+              covering both front-end and back-end aspects of development, and
+              allowing for a wide range of web development projects to be
+              undertaken with confidence.
             </p>
             <div className="text-5xl  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
-              <div className="icon">
-                <BiLogoReact className="icon-item text-4xl " />
+              <div className="icon text-blue-500 ">
+                <BiLogoReact className="icon-item text-6xl " />
               </div>
-              <div className="icon">
-                <BiLogoBootstrap className="icon-item" />
+              <div className="icon text-blue-500">
+                <BiLogoBootstrap className="icon-item text-6xl " />
               </div>
-              <div className="icon">
+              <div className="icon text-blue-500">
                 <BiLogoDjango className="icon-item" />
               </div>
-              <div className="icon">
+              <div className="icon text-blue-500">
                 <BiLogoNetlify className="icon-item" />
               </div>
-              <div className="icon">
+              <div className="icon text-blue-500">
                 <BiLogoJavascript className="icon-item" />
               </div>
-              <div className="icon">
+              <div className="icon text-blue-500">
                 <BiLogoVuejs className="icon-item" />
               </div>
             </div>

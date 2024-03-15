@@ -3,9 +3,14 @@ import React from "react";
 const Projects = () => {
   return (
     <div>
-      <h1 className="text-teal-600 font-bold text-4xl "> Projects</h1>
-      <div className="flex flex-row gap-4 ">
-        <h2 className="dark:text-white ">Tender Management System</h2>
+      <h1 className="text-blue-500 flex justify-center m-3 p-2    font-sans  text-5xl ">
+        {" "}
+        Projects
+      </h1>
+      <div className="flex flex-col  gap-4 ">
+        <h2 className="dark:text-white text-blue-500 ">
+          Tender Management System
+        </h2>
         <div>
           <p className="dark:text-white flex flex-col ">
             This is a Tender Management Software system, enabling people to
@@ -18,7 +23,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-row gap-4 ">
+      <div className="flex flex-col  gap-4 ">
         <h2 className="dark:text-white ">3D Meta Landing Page</h2>
         <div>
           <p className="dark:text-white flex flex-col ">
@@ -28,7 +33,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-row gap-4 ">
+      <div className="flex flex-col gap-4 ">
         <h2 className="dark:text-white ">Movie ANimation Clone</h2>
         <div>
           <p className="dark:text-white flex flex-col ">
