@@ -42,7 +42,9 @@ const Projects = () => {
           <p className="dark:text-white flex flex-col ">
             Animation Clone like hulu, renders movie cards from an api endpoint
             <span className="text-red-400">
-              <a href="http://metacom.vercel.app/">Visit the system</a>
+              <a href="https://animation-clone-xi.vercel.app/">
+                Visit the system
+              </a>
             </span>
           </p>
         </div>
