@@ -12,31 +12,45 @@ import "../app/globals.css";
 
 const About = () => {
   return (
-    <div className="flex rounded-md ">
+    <div className="lg:flex  md:flex  sm:flex-wrap  rounded-md ">
       <section>
         <div className="  dark:bg-black rounded-md  mt-4  ">
-          <div className="flex justify-center text-blue-500  font-sans text-4xl "></div>
+          <div className="justify-center text-blue-500  font-sans text-4xl "></div>
 
-          <h3 className="text-5xl py-5 font-sans flex justify-start w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
+          <h3 className="text-5xl py-5 font-sans  w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
             About
           </h3>
-          <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[60%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
-            {" "}
-            I'm a software developer doing great designs and website's, Web
-            Application Development: <br />
-            Create web applications using React and Vue to deliver responsive,
-            dynamic, and interactive user interfaces.
-            <br />
-            User Interface (UI) Design: <br />
-            Design visually appealing and user-friendly interfaces that enhance
-            the overall user experience.
-            <br />
-            Single Page Applications (SPAs): <br />
-            Build SPAs that load once and dynamically update content without
-            requiring full-page refreshes, providing a smoother user experience.
-          </p>
+          <div className="flex lg:flex-row  gap-2 sm:flex-col   md:w-fit sm:w-fit ">
+            <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[40%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
+              {" "}
+              I'm a software developer doing great designs and website's, Web
+              Application Development: <br />
+              Create web applications using React and Vue to deliver responsive,
+              dynamic, and interactive user interfaces.
+              <br />
+              User Interface (UI) Design: <br />
+              Design visually appealing and user-friendly interfaces that
+              enhance the overall user experience.
+              <br />
+              Single Page Applications (SPAs): <br />
+              Build SPAs that load once and dynamically update content without
+              requiring full-page refreshes, providing a smoother user
+              experience.
+            </p>
+            <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[40%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
+              {" "}
+              I'm also able to interact with data from the back-end and
+              consuming api- data to be intergrated in front-end applications. I
+              have good skills set in Dj'ango MVC model, also Lravel using
+              Inretia for React and Vue , for designing user interfaces and for
+              the best user experience's. Not to foorget Node Js, and Express
+              and it's framework, I have skills to match api modeling and
+              creation and Controllers for functionalities and working of both
+              front-end and back-end applications.
+            </p>
+          </div>
 
-          <p className=" font-medium text-gray-600 m-4  dark:text-white  py-5 leading-8 flex justify-center">
+          {/* <p className=" font-medium text-gray-600 m-4  dark:text-white  py-5 leading-8 flex justify-center">
             {" "}
             I'm a software developer doing great designs and website's, API
             Development: Design and build RESTful or GraphQL APIs to enable
@@ -45,7 +59,7 @@ const About = () => {
             PostgreSQL, MySQL) to store and retrieve data efficiently.
             Authentication and Authorization: Implement user authentication and
             authorization systems to secure the application's resources
-          </p>
+          </p> */}
         </div>
 
         <div>
@@ -69,9 +83,9 @@ const About = () => {
               development, and allowing for a wide range of web development
               projects to be undertaken with confidence.
             </p>
-            <div className="text-5xl font-bold flex px-8 mx-auto justify-center  gap-16 dark:text-teal-600 text-blue-500 py-10 icons-container">
+            <div className="text-5xl  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
               <div className="icon">
-                <BiLogoReact className="icon-item" />
+                <BiLogoReact className="icon-item text-4xl " />
               </div>
               <div className="icon">
                 <BiLogoBootstrap className="icon-item" />

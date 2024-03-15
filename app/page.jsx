@@ -5,6 +5,7 @@ import manu from "../public/manu.jpg";
 import laptop from "../public/laptop.jpg";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import About from "../components/About";
+import Projects from "../components/Projects";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -139,6 +140,7 @@ export default function Home() {
 
           <div className="m-2 p-2 ">
             <About />
+            <Projects />
           </div>
         </section>
 

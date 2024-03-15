@@ -17,11 +17,6 @@
   margin: 0 10px; /* Add some space between icons */
 }
 
-.icon-item {
-  font-size: 6rem; /* Increase icon size */
-  color: #007bff; /* Change icon color */
-}
-
 .icon:hover {
   transform: translateY(-5px) scale(1.1);
 }
