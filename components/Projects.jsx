@@ -19,7 +19,7 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-row gap-4 ">
-        <h2 className="dark: text-white ">3D Meta Landing Page</h2>
+        <h2 className="dark:text-white ">3D Meta Landing Page</h2>
         <div>
           <p className="dark:text-white flex flex-col ">
             Virtual Reality Landing Page
