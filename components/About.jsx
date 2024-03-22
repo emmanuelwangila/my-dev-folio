@@ -20,8 +20,8 @@ const About = () => {
           <h3 className="text-5xl py-5 font-sans  w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
             About
           </h3>
-          <div className="flex lg:flex-row  gap-2 sm:flex-col   md:w-fit sm:w-fit ">
-            <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[40%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
+          <div className="flex lg:flex-row  gap-2     md:w-fit  sm:flex-auto ">
+            <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[80%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
               {" "}
               I'm a software developer doing great designs and website's, Web
               Application Development: <br />
@@ -35,18 +35,14 @@ const About = () => {
               Single Page Applications (SPAs): <br />
               Build SPAs that load once and dynamically update content without
               requiring full-page refreshes, providing a smoother user
-              experience.
-            </p>
-            <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[40%]  font-medium text-gray-600 dark:text-white m-4  py-5 leading-8 flex flex-row gap-6 ">
-              {" "}
-              I'm also able to interact with data from the back-end and
-              consuming api- data to be intergrated in front-end applications. I
-              have good skills set in Dj'ango MVC model, also Lravel using
-              Inretia for React and Vue , for designing user interfaces and for
-              the best user experience's. Not to foorget Node Js, and Express
-              and it's framework, I have skills to match api modeling and
-              creation and Controllers for functionalities and working of both
-              front-end and back-end applications.
+              experience. I'm also able to interact with data from the back-end
+              and consuming api- data to be intergrated in front-end
+              applications. I have good skills set in Dj'ango MVC model, also
+              Lravel using Inretia for React and Vue , for designing user
+              interfaces and for the best user experience's. Not to foorget Node
+              Js, and Express and it's framework, I have skills to match api
+              modeling and creation and Controllers for functionalities and
+              working of both front-end and back-end applications.
             </p>
           </div>
 
