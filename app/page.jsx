@@ -220,7 +220,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-full ">
-          <div className="border  lg:w-full md:w-[60%] sm:w-[100%] border-b border-blue-300 text-teal-600  font-sans  m-4 p-4 rounded-md">
+          <div className="border w-full h-full  pt-20  lg:flex lg:flex-row  gap-5   lg:w-full md:w-[60%] sm:w-[100%] sm:flex-wrap  border-b border-blue-300 text-teal-600  font-sans  m-4 p-4 rounded-md">
             <h3>Developedby Emmanuel Wangila</h3>
             <h4>phone: 0798719417</h4>
             <h4>@2024 All Rights Reserved</h4>
