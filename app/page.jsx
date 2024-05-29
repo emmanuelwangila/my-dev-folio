@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="px-10 w-full  bg-slate-100  dark:bg-black  lg:w-full ">
+      <main className="px-10 w-full  bg-slate-100  dark:bg-black  lg:w-full md:w-full  ">
         <section className="min-h-screen  w-full ">
           <nav className="flex  rounded-md  justify-between py-10 sm:py-5  mb-12 ">
             <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
@@ -219,8 +219,8 @@ export default function Home() {
             </form>
           </div>
         </section>
-        <section className="w-full ">
-          <div className="border w-full h-full  pt-20  lg:flex lg:flex-row  gap-5   lg:w-full md:w-[60%] sm:w-[100%] sm:flex-wrap  border-b border-blue-300 text-blue-600  font-sans  m-4 p-4 rounded-md">
+        <section className=" ">
+          <div className="border  h-full py-20 w-full   lg:flex lg:flex-row  gap-5   lg:w-full md:w-[60%] sm:w-[100%] sm:flex-wrap  border-b border-blue-300 text-blue-600  font-sans  m-4 p-4 rounded-md">
             <h3>Developedby Emmanuel Wangila</h3>
             <h4>phone: 0798719417</h4>
             <h4>@2024 All Rights Reserved</h4>
