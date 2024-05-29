@@ -52,9 +52,9 @@ export default function Home() {
   };
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? "dark" : " "}>
       <main className="px-10 w-full  bg-slate-100  dark:bg-black  lg:w-full md:w-full  ">
-        <section className="min-h-screen  w-full ">
+        <section className="min-h-screen rounded-md   w-full ">
           <nav className="flex  rounded-md  justify-between py-10 sm:py-5  mb-12 ">
             <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
               developedbyWangila
