@@ -66,10 +66,13 @@ export default function Home() {
               <li className="text-2xl cursor-pointer dark:text-white">
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
               </li>
-              <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
-                <a href="">Home</a>
+              <li className="bg-gradient-to-r text-sm  from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
+                <Link to="projects" duration={10000} smooth={true}>
+                  {" "}
+                  Projects
+                </Link>
               </li>
-              <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
+              <li className="bg-gradient-to-r text-sm  from bg-blue-500 cursor-pointer  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
                 <Link to="about" duration={1000} smooth={true}>
                   {" "}
                   About{" "}
@@ -152,9 +155,11 @@ export default function Home() {
           </section>
         </Element>
 
-        <section id="projects">
-          <Projects />
-        </section>
+        <Element name="projects">
+          <section id="projects">
+            <Projects />
+          </section>
+        </Element>
 
         <section>
           <div>
