@@ -54,9 +54,9 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : " "}>
-      <main className="px-10 w-full  bg-white  dark:bg-black  lg:w-full md:w-full  ">
+      <main className="px-10 w-full  bg-white  sm:max-w-370px dark:bg-black  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
-          <nav className="flex border-b border-gray-500  rounded-md  justify-between py-10 sm:py-5  mb-12 ">
+          <nav className="flex border-b border-gray-500  rounded-md  justify-between py-10 sm:py-5 sm:flex-wrap  mb-12 ">
             <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
               developedbyWangila
             </h1>
@@ -66,14 +66,14 @@ export default function Home() {
               <li className="text-2xl cursor-pointer dark:text-white">
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
               </li>
-              <li className="bg-gradient-to-r text-sm  from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
-                <Link to="projects" duration={10000} smooth={true}>
+              <li className="bg-gradient-to-r text-sm  cursor-pointer from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
+                <Link to="projects" duration={100} smooth={true}>
                   {" "}
                   Projects
                 </Link>
               </li>
               <li className="bg-gradient-to-r text-sm  from bg-blue-500 cursor-pointer  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
-                <Link to="about" duration={1000} smooth={true}>
+                <Link to="about" duration={100} smooth={true}>
                   {" "}
                   About{" "}
                 </Link>
