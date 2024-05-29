@@ -68,6 +68,9 @@ export default function Home() {
               <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
                 <a href="">Home</a>
               </li>
+              <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
+                <a href=""> About</a>
+              </li>
             </ul>
           </nav>
 
@@ -137,11 +140,13 @@ export default function Home() {
               <AiFillGithub className="lg:text-8xl  sm:text-4xl" />{" "}
             </a>
           </div>
+        </section>
+        <section id="about">
+          <About />
+        </section>
 
-          <div className="m-2 p-2 ">
-            <About />
-            <Projects />
-          </div>
+        <section id="projects">
+          <Projects />
         </section>
 
         <section>
