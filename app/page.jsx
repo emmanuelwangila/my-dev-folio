@@ -15,6 +15,7 @@ import {
 
 import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
+import { Link, Element } from "react-scroll";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -69,7 +70,10 @@ export default function Home() {
                 <a href="">Home</a>
               </li>
               <li className="bg-gradient-to-r from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
-                <a href=""> About</a>
+                <Link to="about" duration={1000} smooth={true}>
+                  {" "}
+                  About{" "}
+                </Link>
               </li>
             </ul>
           </nav>
@@ -141,9 +145,12 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section id="about">
-          <About />
-        </section>
+
+        <Element name="about">
+          <section id="about">
+            <About />
+          </section>
+        </Element>
 
         <section id="projects">
           <Projects />
