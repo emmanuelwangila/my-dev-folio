@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import forlio from "../public/forlio.jpg";
+import { Link } from "react-scroll";
 
 const Projects = () => {
   return (
@@ -7,6 +10,7 @@ const Projects = () => {
         {" "}
         Projects
       </h1>
+
       <div className="flex flex-col  gap-4 ">
         <h2 className=" text-blue-500 ">Tender Management System</h2>
         <div>
@@ -25,14 +29,19 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col  gap-4 ">
-        <h2 className="text-blue-500  ">3D Meta Landing Page</h2>
+        <h2 className="text-blue-800 uppercase  ">3D Meta Landing Page</h2>
+        <div className="w-full  h-[250px] flex justify-center rounded-md">
+          <Link to=" http://metacom.vercel.app/"></Link>
+          <Image src={forlio} className="rounded-md " />
+        </div>
+
         <div>
-          <p className="dark:text-white flex flex-col m-2  ">
-            Virtual Reality Landing Page
-            <span className="text-red-400">
+          <p>Virtual Reality Landing Page</p>
+          <button className="dark:text-white flex flex-col m-4 p-4  rounded-md bg-blue-500  ">
+            <span className="text-white">
               <a href="http://metacom.vercel.app/">Visit the system</a>
             </span>
-          </p>
+          </button>
         </div>
       </div>
 
