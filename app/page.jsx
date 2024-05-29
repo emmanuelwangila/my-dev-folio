@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : " "}>
-      <main className="px-10 w-full  bg-white  sm:w-[380px] overflow-hidden dark:bg-black  lg:w-full md:w-full  ">
+      <main className="px-10 w-full  bg-white   overflow-hidden dark:bg-black  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
           <nav className="flex border-b border-gray-500  rounded-md  justify-between py-10 sm:py-5 sm:flex-wrap  mb-12 ">
             <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
@@ -115,7 +115,7 @@ export default function Home() {
               <div className=" w-[50% ] m-2 p-2 rounde-md">
                 I'm a Full Stack developer, in the realm of front-end
                 development, I'm proficient in utilizing popular JavaScript
-                frameworks such as React and Vue.
+                frameworks such as React , Vue and Next JS.
                 <br />
                 My mastery of these libraries allows me to craft elegant and
                 responsive user interfaces that not only look stunning but also
@@ -136,7 +136,7 @@ export default function Home() {
           <div className=" flex cursor-pointer justify-center gap-16 py-3 text-gray-600">
             <a href={"https://twitter.com/manuelwangila"}>
               {" "}
-              <AiFillTwitterCircle className="lg:text-8xl md:text-5xl  sm:text-4xl " />{" "}
+              <AiFillTwitterCircle className="lg:text-8xl md:text-5xl  sm:text-7xl " />{" "}
             </a>
             <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
               {" "}
