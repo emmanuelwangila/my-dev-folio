@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import forlio from "../public/forlio.jpg";
+import tender from "../public/tender.jpg";
 import { Link } from "react-scroll";
 
 const Projects = () => {
@@ -19,6 +20,8 @@ const Projects = () => {
             create and bid for tenders. Users are able to receive emails upon
             bidding.
           </p>
+          <Link></Link>
+          <Image src={tender} />
           <button className="dark:text-white flex bg-blue-500 m-3 p-3  flex-col rounded-md">
             <span className="text-white">
               {" "}
