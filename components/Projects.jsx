@@ -20,8 +20,11 @@ const Projects = () => {
             create and bid for tenders. Users are able to receive emails upon
             bidding.
           </p>
-          <Link></Link>
-          <Image src={tender} />
+          <div className="rounded-md flex justify-center h-[250px]">
+            <Link></Link>
+            <Image src={tender} className="rounded-md " />
+          </div>
+
           <button className="dark:text-white flex bg-blue-500 m-3 p-3  flex-col rounded-md">
             <span className="text-white">
               {" "}
