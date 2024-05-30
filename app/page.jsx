@@ -147,13 +147,15 @@ export default function Home() {
               <AiFillGithub className="lg:text-8xl  sm:text-4xl" />{" "}
             </a>
           </div>
-        </section>
 
-        <Element name="about">
-          <section id="about">
-            <About />
-          </section>
-        </Element>
+          <div className="">
+            <Element name="about">
+              <section id="about">
+                <About />
+              </section>
+            </Element>
+          </div>
+        </section>
 
         <Element name="projects">
           <section id="projects">

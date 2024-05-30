@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="flex flex-col  gap-4 ">
         <h2 className=" text-blue-500 ">Tender Management System</h2>
         <div>
-          <p>
+          <p className="dark:text-white">
             This is a Tender Management Software system, enabling people to
             create and bid for tenders. Users are able to receive emails upon
             bidding.
@@ -44,7 +44,7 @@ const Projects = () => {
         </div>
 
         <div>
-          <p>Virtual Reality Landing Page</p>
+          <p className="dark:text-white">Virtual Reality Landing Page</p>
           <button className="dark:text-white flex flex-col m-4 p-4  rounded-md bg-blue-500  ">
             <span className="text-white">
               <a href="http://metacom.vercel.app/">Visit the system</a>
