@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import forlio from "../public/forlio.jpg";
 import tender from "../public/tender.jpg";
+import anime from "../public/anime.jpg";
 import { Link } from "react-scroll";
 
 const Projects = () => {
@@ -55,15 +56,17 @@ const Projects = () => {
 
       <div className="flex flex-col gap-4 ">
         <h2 className="text-blue-500 ">Movie ANimation Clone</h2>
+        <p className="dark:text-white ">
+          Animation Clone like hulu, renders movie cards from an api endpoint
+        </p>
         <div>
-          <p className="dark:text-white flex flex-col ">
-            Animation Clone like hulu, renders movie cards from an api endpoint
+          <button className="dark:text-white bg-blue-500 m-3 p-3 rounded-md flex flex-col ">
             <span className="text-red-400">
               <a href="https://animation-clone-xi.vercel.app/">
                 Visit the system
               </a>
             </span>
-          </p>
+          </button>
         </div>
       </div>
     </div>
