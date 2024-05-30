@@ -60,7 +60,11 @@ const Projects = () => {
           Animation Clone like hulu, renders movie cards from an api endpoint
         </p>
         <div>
-          <Link></Link>
+          <div className="rounded-md w-full h-[250px] flex justify-center ">
+            <Link></Link>
+            <Image src={anime} alt="animation-clone " className="rounded-md " />
+          </div>
+
           <button className="dark:text-white bg-blue-500 m-3 p-3 rounded-md flex flex-col ">
             <span className="text-white">
               <a href="https://animation-clone-xi.vercel.app/">
