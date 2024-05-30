@@ -143,11 +143,11 @@ export default function Home() {
             </a>
             <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
               {" "}
-              <AiFillLinkedin className="lg:text-8xl md:text-5xl sm:text-4xl" />{" "}
+              <AiFillLinkedin className="lg:text-8xl hover:text-blue-500 md:text-5xl sm:text-4xl" />{" "}
             </a>
             <a href={"https://github.com/emmanuelwangila"}>
               {" "}
-              <AiFillGithub className="lg:text-8xl  sm:text-4xl" />{" "}
+              <AiFillGithub className="lg:text-8xl hover:text-blue-500  sm:text-4xl" />{" "}
             </a>
           </div>
 
