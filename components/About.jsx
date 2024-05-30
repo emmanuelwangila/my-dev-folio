@@ -17,7 +17,7 @@ const About = () => {
         <div className="  dark:bg-black rounded-md  mt-4  ">
           <div className="justify-center text-blue-500  font-sans text-4xl "></div>
 
-          <h3 className="text-5xl py-5 font-sans  w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
+          <h3 className="text-5xl py-5 font-sans mx-auto hover:text-blue-600  w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
             About
           </h3>
           <div className="flex lg:flex-row  gap-2     md:w-fit  sm:flex-auto ">
