@@ -115,7 +115,10 @@ export default function Home() {
               <div className=" w-[50% ] m-2 p-2 rounde-md">
                 I'm a Full Stack developer, in the realm of front-end
                 development, I'm proficient in utilizing popular JavaScript
-                frameworks such as React , Vue and Next JS.
+                frameworks such as React , Vue and Next JS. I also have a good
+                grasp of PHP , using it's Framework Laravel for web development
+                and back-end database modelling, proficiency in intergrating
+                Inertia with React , Vue with Laravel and CodeIgniter.
                 <br />
                 My mastery of these libraries allows me to craft elegant and
                 responsive user interfaces that not only look stunning but also
