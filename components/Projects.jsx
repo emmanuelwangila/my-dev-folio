@@ -73,6 +73,31 @@ const Projects = () => {
             </span>
           </button>
         </div>
+
+        <div className="flex flex-col gap-4 ">
+          <h2 className="text-blue-500 "> Tasks Aplication App</h2>
+          <p className="dark:text-white ">
+            Simple task application for managing priority tasks
+          </p>
+          <div>
+            <div className="rounded-md w-full h-[250px] flex justify-center ">
+              <Link></Link>
+              <Image
+                src={anime}
+                alt="animation-clone "
+                className="rounded-md "
+              />
+            </div>
+
+            <button className="dark:text-white bg-blue-500 m-3 p-3 rounded-md flex flex-col ">
+              <span className="text-white">
+                <a href="https://animation-clone-xi.vercel.app/">
+                  Visit the system
+                </a>
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
