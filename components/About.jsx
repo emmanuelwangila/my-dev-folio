@@ -83,7 +83,7 @@ const About = () => {
               allowing for a wide range of web development projects to be
               undertaken with confidence.
             </p>
-            <div className="text-5xl  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
+            <div className="text-5xl overflow-scroll  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
               <div className="icon text-blue-500 ">
                 <BiLogoReact className="icon-item text-6xl " />
               </div>
