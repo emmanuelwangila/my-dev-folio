@@ -58,7 +58,7 @@ export default function Home() {
         <section className="min-h-screen rounded-md   w-full ">
           <nav className="flex border-b border-gray-500  rounded-md  justify-between py-10 sm:py-5 sm:flex-wrap  mb-12 ">
             <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
-              developedbyWangila
+              porfolio
             </h1>
             {/* <About /> */}
             <ul className="flex items-end">
