@@ -91,7 +91,7 @@ const Projects = () => {
 
             <button className="dark:text-white bg-blue-500 m-3 p-3 rounded-md flex flex-col ">
               <span className="text-white">
-                <a href="https://animation-clone-xi.vercel.app/">
+                <a href="https://pinia-tasks-iota.vercel.app/">
                   Visit the system
                 </a>
               </span>
