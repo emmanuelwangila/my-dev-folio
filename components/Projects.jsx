@@ -8,9 +8,9 @@ import { Link } from "react-scroll";
 
 const Projects = () => {
   return (
-    <div className=" flex flex-col  ">
+    <div className=" flex flex-col sm:flex-col sm:w-full overflow-scroll ">
       <h1 className=" text-blue-500 font-sans text-4xl m-2 p-2 ">Projects</h1>
-      <div className="flex flex-row gap-4 ">
+      <div className="flex lg:flex-row md:flex-col   gap-4 ">
         <div className="flex flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
           <h2 className=" text-blue-500 ">Tender Management System</h2>
           <div>

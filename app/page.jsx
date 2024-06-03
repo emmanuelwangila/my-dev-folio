@@ -161,8 +161,8 @@ export default function Home() {
         </section>
 
         <Element name="projects">
-          <section id="projects">
-            <Projects className="sm:flex-wrap sm:max-w-[350px]" />
+          <section id="projects" className="flex-col">
+            <Projects className="" />
           </section>
         </Element>
 
