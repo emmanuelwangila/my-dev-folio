@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : " "}>
-      <main className="px-10 w-full  bg-teal-200 overflow-hidden dark:bg-black  lg:w-full md:w-full  ">
+      <main className="px-10 w-full  bg-slate-100 overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
           <nav className="flex border-b  border-gray-500  rounded-md  justify-between py-10 sm:py-5 sm:flex-wrap  mb-12 ">
             <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
@@ -172,7 +172,7 @@ export default function Home() {
               Experience{" "}
             </h1>
 
-            <div className="grid grid-cols-2  dark:bg-black sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
+            <div className="grid grid-cols-2  dark:bg-gray-800 sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
               <p className=" grid-flow-col m-3  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
                 Component-Based Architecture: I'm proficient in creating
                 reusable UI components, which is a core concept in React. State
@@ -211,7 +211,7 @@ export default function Home() {
               <form
                 onSubmit={handleFormSubmit}
                 method="POST"
-                className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-start items-center  dark:bg-black  rounded-md  h-full mt-4 py-4 "
+                className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-start items-center  dark:bg-gray-800  rounded-md  h-full mt-4 py-4 "
               >
                 <input
                   className="p-3 m-2  w-full rounded-md   bg-gray-100   border border-blue-300"

@@ -14,7 +14,7 @@ const About = () => {
   return (
     <div className="lg:flex  md:flex  sm:flex-wrap  rounded-md ">
       <section>
-        <div className="  dark:bg-black rounded-md  mt-4  ">
+        <div className="  dark:bg-gray-800 rounded-md  mt-4  ">
           <div className="justify-center text-blue-500  font-sans text-4xl "></div>
 
           <h3 className="text-5xl py-5 font-sans mx-auto hover:text-blue-600 cursor-pointer  w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
@@ -59,7 +59,7 @@ const About = () => {
         </div>
 
         <div>
-          <div className="  dark:bg-black  rounded-md border-teal-600  py-10 mb-10 ">
+          <div className="  dark:bg-gray-800  rounded-md border-teal-600  py-10 mb-10 ">
             <h3 className="text-blue-500 hover:text-blue-500 cursor-pointer dark:text-teal-600 py-5 font-sans mx-4 flex  text-5xl justify-center ">
               Stack
             </h3>
