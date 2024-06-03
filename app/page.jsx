@@ -73,7 +73,7 @@ export default function Home() {
                 </Link>
               </li>
               <li className="bg-gradient-to-r text-sm  from bg-blue-500 cursor-pointer  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
-                <Link to="about" duration={100} smooth={true}>
+                <Link to="contact" duration={100} smooth={true}>
                   {" "}
                   About{" "}
                 </Link>
@@ -202,45 +202,48 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
-            Contact Me
-          </h3>
-          <div className="flex lg:w-[60%]  md:w-[60%] justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
-            <form
-              onSubmit={handleFormSubmit}
-              method="POST"
-              className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-start items-center  dark:bg-black  rounded-md  h-full mt-4 py-4 "
-            >
-              <input
-                className="p-3 m-2  w-full rounded-md   bg-gray-100   border border-blue-300"
-                id="name"
-                name="name"
-                placeholder="Enter  your name"
-              ></input>
-              <input
-                className="name p-3 m-2  w-full bg-gray-100 rounded-md border border-blue-300 "
-                id="phone"
-                name="phone"
-                placeholder="Enter your phoneNumber"
-              ></input>
-              <input
-                className="name p-3 m-2 w-full border border-blue-300 bg-gray-100 rounded-md"
-                id="location"
-                name="location"
-                placeholder="Enter your location"
-              ></input>
-              <textarea
-                name="message"
-                className="p-3 m-2 w-full bg-gray-200 border border-blue-300 rounded-md  "
-                placeholder="Input your message here "
-              ></textarea>
-              <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md ">
-                Submit
-              </button>
-            </form>
-          </div>
-        </section>
+        <Element name="contact">
+          <section id="contact">
+            <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
+              Contact Me
+            </h3>
+            <div className="flex lg:w-[60%]  md:w-[60%] justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
+              <form
+                onSubmit={handleFormSubmit}
+                method="POST"
+                className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-start items-center  dark:bg-black  rounded-md  h-full mt-4 py-4 "
+              >
+                <input
+                  className="p-3 m-2  w-full rounded-md   bg-gray-100   border border-blue-300"
+                  id="name"
+                  name="name"
+                  placeholder="Enter  your name"
+                ></input>
+                <input
+                  className="name p-3 m-2  w-full bg-gray-100 rounded-md border border-blue-300 "
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phoneNumber"
+                ></input>
+                <input
+                  className="name p-3 m-2 w-full border border-blue-300 bg-gray-100 rounded-md"
+                  id="location"
+                  name="location"
+                  placeholder="Enter your location"
+                ></input>
+                <textarea
+                  name="message"
+                  className="p-3 m-2 w-full bg-gray-200 border border-blue-300 rounded-md  "
+                  placeholder="Input your message here "
+                ></textarea>
+                <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md ">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </section>
+        </Element>
+
         <section className=" ">
           <div className="border  h-full py-20 w-full   lg:flex lg:flex-row  gap-5   lg:w-full md:w-[60%] sm:w-[100%] sm:flex-wrap  border-b border-blue-300 text-blue-600  font-sans  m-4 p-4 rounded-md">
             <h3>Developedby Emmanuel Wangila</h3>
