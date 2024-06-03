@@ -3,6 +3,7 @@ import Image from "next/image";
 import forlio from "../public/forlio.jpg";
 import tender from "../public/tender.jpg";
 import anime from "../public/anime.jpg";
+import manu from "../public/manu.jpg";
 import { Link } from "react-scroll";
 
 const Projects = () => {
@@ -83,7 +84,7 @@ const Projects = () => {
             <div className="rounded-md w-full h-[250px] flex justify-center ">
               <Link></Link>
               <Image
-                src={anime}
+                src={manu}
                 alt="animation-clone "
                 className="rounded-md "
               />
