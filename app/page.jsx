@@ -75,7 +75,7 @@ export default function Home() {
               <li className="bg-gradient-to-r text-sm  from bg-blue-500 cursor-pointer  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
                 <Link to="contact" duration={100} smooth={true}>
                   {" "}
-                  About{" "}
+                  Contact{" "}
                 </Link>
               </li>
             </ul>
