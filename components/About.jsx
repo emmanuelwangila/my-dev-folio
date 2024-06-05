@@ -86,28 +86,30 @@ const About = () => {
               commitment to quality, efficiency, and innovation, making me a
               versatile and valuable asset in any development team.
             </p>
-            <div className="text-5xl overflow-scroll  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
-              <div className="icon  ">
-                {/* <BiLogoReact className="icon-item text-6xl " /> */}
-                <FaReact />
-              </div>
-              <div className="icon text-blue-500">
-                <BiLogoBootstrap className="icon-item text-6xl " />
-              </div>
-              <div>
-                <FaPython />
-              </div>
-              <div className="icon text-blue-500">
-                <BiLogoDjango className="icon-item" />
-              </div>
-              <div className="icon text-blue-500">
-                <BiLogoNetlify className="icon-item" />
-              </div>
-              <div className="icon text-blue-500">
-                <BiLogoJavascript className="icon-item" />
-              </div>
-              <div className="icon text-blue-500">
-                <BiLogoVuejs className="icon-item" />
+            <div className="text-5xl overflow-scroll flex-col   font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
+              <div className=" grid grid-cols-3 ">
+                <div className="icon  ">
+                  {/* <BiLogoReact className="icon-item text-6xl " /> */}
+                  <FaReact />
+                </div>
+                <div className="icon text-blue-500">
+                  <BiLogoBootstrap className="icon-item text-6xl " />
+                </div>
+                <div>
+                  <FaPython />
+                </div>
+                <div className="icon ">
+                  <BiLogoDjango className="icon-item" />
+                </div>
+                <div className="icon ">
+                  <BiLogoNetlify className="icon-item" />
+                </div>
+                <div className="icon ">
+                  <BiLogoJavascript className="icon-item" />
+                </div>
+                <div className="icon ">
+                  <BiLogoVuejs className="icon-item" />
+                </div>
               </div>
             </div>
           </div>
