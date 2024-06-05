@@ -16,7 +16,7 @@ const About = () => {
       <section>
         <div className="  dark:bg-gray-800 rounded-md  mt-4  ">
           <div className="flex  mx-auto text-white font-sans  ">
-            <button className="text-2xl bg-blue-500 rounded-full text-white p-2 mx-auto font-sans  hover:text-white cursor-pointer  w-[10%]   dark:text-white   ">
+            <button className="text-2xl bg-blue-500 rounded-full text-white p-2 mx-auto font-sans  hover:text-white cursor-pointer  dark:text-white   ">
               About
             </button>
           </div>
