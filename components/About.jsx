@@ -25,8 +25,8 @@ const About = () => {
               {" "}
               I'm a software developer doing great designs and website's, Web
               Application Development: <br />
-              Create web applications using React and Vue to deliver responsive,
-              dynamic, and interactive user interfaces.
+              Creating web applications using React and Vue to deliver
+              responsive, dynamic, and interactive user interfaces.
               <br />
               User Interface (UI) Design: <br />
               Design visually appealing and user-friendly interfaces that
