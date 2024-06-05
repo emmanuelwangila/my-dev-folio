@@ -8,8 +8,13 @@ import { Link } from "react-scroll";
 
 const Projects = () => {
   return (
-    <div className=" flex flex-col font-sans  sm:flex-col  overflow-scroll  ">
-      <h1 className=" text-blue-500 font-sans text-4xl m-2 p-2 ">Projects</h1>
+    <div className=" flex  flex-col font-sans  sm:mx-auto  ">
+      <div className=" flex mx-auto">
+        <button className="  text-white bg-blue-500 rounded-full  font-sans text-2xl m-2 p-2 ">
+          Projects
+        </button>
+      </div>
+
       <div className="  lg:flex lg:flex-row md:mx-auto sm:mx-auto">
         <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
           <h2 className=" text-blue-800 "> KaziQuest </h2>
