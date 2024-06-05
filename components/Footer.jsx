@@ -19,8 +19,8 @@ const Footer = () => {
           <AiFillTwitterCircle className="text-2xl"></AiFillTwitterCircle>{" "}
           Twitter
         </ul>
-        <ul>
-          <AiFillLinkedin className="text-2xl flex flex-row m-2 cursor-pointer"></AiFillLinkedin>{" "}
+        <ul className="flex flex-row m-2 cursor-pointer">
+          <AiFillLinkedin className="text-2xl cursor-pointer"></AiFillLinkedin>{" "}
           LInkedIn
         </ul>
         <ul>
