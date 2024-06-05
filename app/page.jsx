@@ -143,15 +143,15 @@ export default function Home() {
           <div className=" flex cursor-pointer justify-center gap-16 py-3 text-gray-600">
             <a href={"https://twitter.com/manuelwangila"}>
               {" "}
-              <AiFillTwitterCircle className="lg:text-8xl hover:text-blue-500 md:text-5xl  sm:text-7xl " />{" "}
+              <AiFillTwitterCircle className="lg:text-5xl hover:text-blue-500 md:text-5xl  sm:text-7xl " />{" "}
             </a>
             <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
               {" "}
-              <AiFillLinkedin className="lg:text-8xl hover:text-blue-500 md:text-5xl sm:text-4xl" />{" "}
+              <AiFillLinkedin className="lg:text-5xl hover:text-blue-500 md:text-5xl sm:text-4xl" />{" "}
             </a>
             <a href={"https://github.com/emmanuelwangila"}>
               {" "}
-              <AiFillGithub className="lg:text-8xl hover:text-blue-500  sm:text-4xl" />{" "}
+              <AiFillGithub className="lg:text-5xl hover:text-blue-500  sm:text-4xl" />{" "}
             </a>
           </div>
 
