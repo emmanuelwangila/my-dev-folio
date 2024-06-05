@@ -23,7 +23,7 @@ const Footer = () => {
           <AiFillLinkedin className="text-2xl cursor-pointer"></AiFillLinkedin>{" "}
           LInkedIn
         </ul>
-        <ul>
+        <ul className="cursor-pointer">
           {" "}
           {/* <AiFillGmail className="text-2xl "></AiFillGmail> */}
           emmanuelwangila1@gmail.com
