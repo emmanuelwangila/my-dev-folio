@@ -48,8 +48,8 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="flex cursor-pointer hover:bg-blue-500 flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
-          <h2 className="text-blue-500 ">Movie ANimation Clone</h2>
+        <div className="flex cursor-pointer hover:text-white hover:bg-blue-500 flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
+          <h2 className="text-blue-800 ">Movie ANimation Clone</h2>
           <p className="dark:text-white ">
             Animation Clone like hulu, renders movie cards from an api endpoint
           </p>
@@ -72,8 +72,8 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
-          <h2 className="text-blue-500 "> Tasks Aplication App</h2>
+        <div className="flex cursor-pointer hover:bg-blue-500 hover:text-white flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
+          <h2 className="text-blue-800 "> Tasks Aplication App</h2>
           <p className="dark:text-white ">
             Simple task application for managing priority tasks
           </p>
