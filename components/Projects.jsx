@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="  lg:flex lg:flex-row md:mx-auto sm:mx-auto">
         <div className="flex flex-col cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
           <h2 className=" text-blue-500 "> KaziQuest </h2>
-          <div>
+          <div className="">
             <p className="dark:text-white">
               This is an Applicant Tracking System , web application that
               enables employe's to hire the best talent from a group of
@@ -32,7 +32,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
+        <div className="flex hover:bg-blue-500 flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
           <h2 className="text-blue-800 uppercase  ">3D Meta Landing Page</h2>
           <div className="w-full  h-[250px] flex justify-center rounded-md">
             <Link to=" http://metacom.vercel.app/"></Link>
