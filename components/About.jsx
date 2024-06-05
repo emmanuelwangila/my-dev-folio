@@ -10,6 +10,9 @@ import {
 } from "react-icons/bi";
 import { FaReact } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa6";
+import { SiNextdotjs } from "react-icons/si";
+import { SiNuxtdotjs } from "react-icons/si";
 import "../app/globals.css";
 
 const About = () => {
@@ -91,13 +94,13 @@ const About = () => {
                 <div className="icon  ">
                   {/* <BiLogoReact className="icon-item text-6xl " /> */}
                   <FaReact />
+                  <SiNuxtdotjs />
                 </div>
-                <div className="icon text-blue-500">
+                <div className="icon ">
                   <BiLogoBootstrap className="icon-item text-6xl " />
+                  <SiNextdotjs />
                 </div>
-                <div>
-                  <FaPython />
-                </div>
+
                 <div className="icon ">
                   <BiLogoDjango className="icon-item" />
                 </div>
@@ -106,6 +109,10 @@ const About = () => {
                 </div>
                 <div className="icon ">
                   <BiLogoJavascript className="icon-item" />
+                  <div>
+                    <FaPython />
+                    <FaPhp />
+                  </div>
                 </div>
                 <div className="icon ">
                   <BiLogoVuejs className="icon-item" />
