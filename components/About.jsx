@@ -13,6 +13,7 @@ import { FaPython } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa6";
 import { SiNextdotjs } from "react-icons/si";
 import { SiNuxtdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import "../app/globals.css";
 
 const About = () => {
@@ -95,6 +96,7 @@ const About = () => {
                   {/* <BiLogoReact className="icon-item text-6xl " /> */}
                   <FaReact />
                   <SiNuxtdotjs />
+                  <SiTailwindcss />
                 </div>
                 <div className="icon ">
                   <BiLogoBootstrap className="icon-item text-6xl " />
