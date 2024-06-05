@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </ul> */}
           <ul className="flex flex-row m-2  cursor-pointer">
-            <a href="https:github.com/emmanuelwangila">
+            <a href="https://github.com/emmanuelwangila">
               <AiFillGithub className="text-2xl"></AiFillGithub> Github
             </a>
           </ul>
