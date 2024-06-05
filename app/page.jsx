@@ -172,39 +172,54 @@ export default function Home() {
 
         <section>
           <div>
-            <h1 className="text-5xl mx-3 py-3 flex  justify-center  text-blue-500  font-sans  dark:text-teal-600">
-              Experience{" "}
-            </h1>
+            <div className="flex justify-center  ">
+              <button className="text-2xl  mx-3 py-3 flex  justify-center lg:p-3 sm:p-1    text-white bg-blue-500 rounded-full   font-sans  dark:text-teal-600">
+                Experience{" "}
+              </button>
+            </div>
 
             <div className="grid grid-cols-2  dark:bg-gray-800 sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
-              <p className=" grid-flow-col m-3 font-sans  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
-                At KaziQuest, I honed my skills in designing UI/UX using Nuxt 3
-                for the front-end and Django for the back-end. My
-                responsibilities included code reviews, Git version control,
-                testing, and consuming APIs from the back-end, ensuring seamless
-                integration and high-quality user experiences. I expertly
-                crafted dynamic front-end experiences while leveraging Django
-                for robust back-end functionality. My role encompassed
-                meticulous code reviews, efficient version control with Git, and
-                rigorous testing, ensuring top-notch performance and user
-                satisfaction. Through these efforts, I contributed to creating
-                seamless, responsive, and highly functional web applications
-                that delighted users and met business objectives.
-              </p>
+              <div>
+                <button className="text-white  bg-blue-500 p-3  rounded-full text-2xl font-sans m-2   ">
+                  {" "}
+                  April 2023 - Present
+                </button>
+                <p className=" grid-flow-col m-2  font-sans  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
+                  At KaziQuest, I honed my skills in designing UI/UX using Nuxt
+                  3 for the front-end and Django for the back-end. My
+                  responsibilities included code reviews, Git version control,
+                  testing, and consuming APIs from the back-end, ensuring
+                  seamless integration and high-quality user experiences. I
+                  expertly crafted dynamic front-end experiences while
+                  leveraging Django for robust back-end functionality. My role
+                  encompassed meticulous code reviews, efficient version control
+                  with Git, and rigorous testing, ensuring top-notch performance
+                  and user satisfaction. Through these efforts, I contributed to
+                  creating seamless, responsive, and highly functional web
+                  applications that delighted users and met business objectives.
+                </p>
+              </div>
 
-              <p className="grid-flow-col m-3  font-medium text-gray-600 dark:text-white  leading-8 ">
-                Model-View-Controller (MVC): I have great understanding of
-                Django's MVC architecture and how to create models, views, and
-                controllers (views and serializers in Django REST framework).
-                Authentication and Authorization: Experience in implementing
-                user authentication and authorization, perhaps using Django's
-                built-in authentication system or third-party libraries like
-                Django Rest Framework JWT. Database Integration: You're
-                experienced in working with databases, especially with Django's
-                ORM to define and query database schemas. API Development: I've
-                skills in building RESTful APIs using Django REST framework or
-                GraphQL APIs using Graphene-Django
-              </p>
+              <div className="">
+                <button className="font-sans text-2xl m-2  text-white bg-blue-500 rounded-full p-3 ">
+                  Jan 2023 - April 2023
+                </button>
+                <p className="grid-flow-col m-3  font-sans font-medium text-gray-600 dark:text-white  leading-8 ">
+                  At Kenya Power, I excelled in networking, project management,
+                  routing, and hardware and software solutions. My role involved
+                  comprehensive database management, software installations, and
+                  troubleshooting technical issues. I collaborated closely with
+                  Kenya Power engineers, providing essential assistance and
+                  meticulous documentation for IT projects. Through strategic
+                  project management and hands-on technical expertise, I ensured
+                  seamless operations and contributed to the successful
+                  implementation of various IT initiatives, enhancing the
+                  overall efficiency and reliability of Kenya Power's
+                  technological infrastructure. My dynamic skill set and
+                  proactive approach drove continuous improvements and
+                  streamlined processes within the organization.
+                </p>
+              </div>
             </div>
           </div>
         </section>
