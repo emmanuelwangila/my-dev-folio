@@ -48,7 +48,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="flex cursor-pointer bg-blue-500 flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
+        <div className="flex cursor-pointer hover:bg-blue-500 flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
           <h2 className="text-blue-500 ">Movie ANimation Clone</h2>
           <p className="dark:text-white ">
             Animation Clone like hulu, renders movie cards from an api endpoint
