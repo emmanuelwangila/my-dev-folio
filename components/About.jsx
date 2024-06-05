@@ -62,7 +62,7 @@ const About = () => {
         <div>
           <div className="  dark:bg-gray-800 font-sans  rounded-md border-teal-600  py-10 mb-10 ">
             <div>
-              <button className="text-blue-500 hover:text-blue-500 cursor-pointer dark:text-teal-600 py-5 font-sans mx-4 flex  text-2xl justify-center ">
+              <button className="text-blue-500 hover:text-blue-500 cursor-pointer dark:text-white py-5 font-sans mx-4 flex  text-2xl justify-center ">
                 Stack
               </button>
             </div>
