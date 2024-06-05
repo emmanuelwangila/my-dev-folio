@@ -29,7 +29,12 @@ const Footer = () => {
               LInkedIn
             </a>
           </ul>
-          <ul className="cursor-pointer"> emmanuelwangila1@gmail.com</ul>
+          <ul className="cursor-pointer">
+            <a href="https://mail.google.com/">
+              <BiLogoGmail></BiLogoGmail>
+              emmanuelwangila1@gmail.com
+            </a>
+          </ul>
           <ul className="flex flex-row m-2  cursor-pointer">
             <AiFillGithub className="text-2xl"></AiFillGithub> Github
           </ul>
