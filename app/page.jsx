@@ -62,24 +62,26 @@ export default function Home() {
               porfolio
             </h1>
             {/* <About /> */}
-            <ul className="flex items-end">
-              .
-              <li className="text-2xl cursor-pointer dark:text-white">
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
-              </li>
-              <li className="bg-gradient-to-r text-sm  cursor-pointer from bg-blue-500  dark:bg-teal-600 rounded-md border-none px-4 ml-8 text-white">
-                <Link to="projects" duration={100} smooth={true}>
-                  {" "}
-                  Projects
-                </Link>
-              </li>
-              <li className="bg-gradient-to-r text-sm  from bg-blue-500 cursor-pointer  dark:bg-teal-600 rounded-md border-none px-4 ml-6 text-white">
-                <Link to="contact" duration={100} smooth={true}>
-                  {" "}
-                  Contact{" "}
-                </Link>
-              </li>
-            </ul>
+            <div className="m">
+              <ul className="flex items-end m-0.5 ">
+                .
+                <li className="text-2xl cursor-pointer dark:text-white">
+                  <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
+                </li>
+                <li className="bg-gradient-to-r text-sm  p-1   cursor-pointer from bg-white  dark:bg-white rounded-full border-none px-4 ml-8 text-blue-500">
+                  <Link to="projects" duration={100} smooth={true}>
+                    {" "}
+                    Projects
+                  </Link>
+                </li>
+                <li className="bg-gradient-to-r text-sm  from bg-white cursor-pointer  dark:bg-white p-1  rounded-md border-none px-4 ml-6 text-white">
+                  <Link to="contact" duration={100} smooth={true}>
+                    {" "}
+                    Contact{" "}
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </nav>
 
           <div className=" flex flex-col   text-center">
