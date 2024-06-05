@@ -176,17 +176,19 @@ export default function Home() {
             </h1>
 
             <div className="grid grid-cols-2  dark:bg-gray-800 sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
-              <p className=" grid-flow-col m-3  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
-                Component-Based Architecture: I'm proficient in creating
-                reusable UI components, which is a core concept in React. State
-                Management: You've likely used state and props to manage data
-                and UI updates efficiently. Routing: I'm familiar with
-                client-side routing using libraries like React Router. API
-                Integration: You've connected your React components to backend
-                APIs using methods like Axios or the Fetch API. Styling: You've
-                implemented CSS styles using various methods, including
-                CSS-in-JS libraries like styled-components or CSS preprocessors
-                like SASS
+              <p className=" grid-flow-col m-3 font-sans  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
+                At KaziQuest, I honed my skills in designing UI/UX using Nuxt 3
+                for the front-end and Django for the back-end. My
+                responsibilities included code reviews, Git version control,
+                testing, and consuming APIs from the back-end, ensuring seamless
+                integration and high-quality user experiences. I expertly
+                crafted dynamic front-end experiences while leveraging Django
+                for robust back-end functionality. My role encompassed
+                meticulous code reviews, efficient version control with Git, and
+                rigorous testing, ensuring top-notch performance and user
+                satisfaction. Through these efforts, I contributed to creating
+                seamless, responsive, and highly functional web applications
+                that delighted users and met business objectives.
               </p>
 
               <p className="grid-flow-col m-3  font-medium text-gray-600 dark:text-white  leading-8 ">
