@@ -180,7 +180,7 @@ export default function Home() {
 
             <div className="grid grid-cols-2  dark:bg-gray-800 sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
               <div>
-                <button className="text-white  bg-blue-500 lg:p-3 sm:p-1   rounded-full lg:text-2xl sm:text-sm font-sans m-2   ">
+                <button className="text-white  bg-blue-500 lg:p-2 sm:p-1   rounded-full lg:text-2xl sm:text-sm font-sans m-2   ">
                   {" "}
                   April 2023 - Present
                 </button>
@@ -201,7 +201,7 @@ export default function Home() {
               </div>
 
               <div className="">
-                <button className="font-sans lg:text-2xl sm:text-sm  m-2  text-white bg-blue-500 rounded-full lg:p-3 sm:p-1  ">
+                <button className="font-sans lg:text-2xl sm:text-sm  m-2  text-white bg-blue-500 rounded-full lg:p-2 sm:p-1  ">
                   Jan 2023 - April 2023
                 </button>
                 <p className="grid-flow-col m-3  font-sans font-medium text-gray-600 dark:text-white  leading-8 ">
