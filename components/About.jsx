@@ -62,7 +62,7 @@ const About = () => {
         <div>
           <div className="  dark:bg-gray-800 font-sans  rounded-md border-teal-600  py-10 mb-10 ">
             <div className="flex mx-auto justify-center">
-              <button className="text-white lue-500 bg-blue-500 rounded-full p-2  hover:text-blue-500 cursor-pointer dark:text-white py-5 font-sans mx-4 flex  text-2xl justify-center ">
+              <button className="text-white lue-500 bg-blue-500 rounded-full lg:p-2 sm:p-1  hover:text-blue-500 cursor-pointer dark:text-white py-2 font-sans mx-4 flex  text-2xl justify-center ">
                 Stack | Technlogies
               </button>
             </div>
