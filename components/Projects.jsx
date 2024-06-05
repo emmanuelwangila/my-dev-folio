@@ -24,7 +24,7 @@ const Projects = () => {
               <Image src={tender} className="rounded-md " />
             </div>
 
-            <button className="dark:text-white flex bg-blue-500 m-3 p-3  flex-col rounded-md">
+            <button className="dark:text-white flex bg-green-500 m-3 p-3  flex-col rounded-md">
               <span className="text-white">
                 {" "}
                 <a href="https://www.kaziquest.com/">Visit the system</a>
@@ -32,7 +32,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="flex hover:bg-blue-500 cursor-pointer flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
+        <div className="flex hover:bg-blue-500 hover:text-white cursor-pointer flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
           <h2 className="text-blue-800 uppercase  ">3D Meta Landing Page</h2>
           <div className="w-full  h-[250px] flex justify-center rounded-md">
             <Link to=" http://metacom.vercel.app/"></Link>
@@ -41,7 +41,7 @@ const Projects = () => {
 
           <div className="">
             <p className="dark:text-white">Virtual Reality Landing Page</p>
-            <button className="dark:text-white flex flex-col m-4 p-4  rounded-md bg-blue-500  ">
+            <button className="dark:text-white  flex flex-col m-4 p-4  rounded-md bg-green-500 ">
               <span className="text-white">
                 <a href="http://metacom.vercel.app/">Visit the system</a>
               </span>
@@ -63,7 +63,7 @@ const Projects = () => {
               />
             </div>
 
-            <button className="dark:text-white bg-blue-500 m-3 p-3 rounded-md flex flex-col ">
+            <button className="dark:text-white bg-green-500 m-3 p-3 rounded-md flex flex-col ">
               <span className="text-white">
                 <a href="https://animation-clone-xi.vercel.app/">
                   Visit the system
@@ -87,7 +87,7 @@ const Projects = () => {
               />
             </div>
 
-            <button className="dark:text-white bg-blue-500 m-3 p-3 rounded-md flex flex-col ">
+            <button className="dark:text-white bg-green-500 m-3 p-3 rounded-md flex flex-col ">
               <span className="text-white">
                 <a href="https://pinia-tasks-iota.vercel.app/">
                   Visit the system
