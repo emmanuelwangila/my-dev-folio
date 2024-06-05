@@ -8,6 +8,8 @@ import {
   BiLogoVuejs,
   BiLogoJavascript,
 } from "react-icons/bi";
+import { FaReact } from "react-icons/fa6";
+import { FaPython } from "react-icons/fa";
 import "../app/globals.css";
 
 const About = () => {
@@ -85,11 +87,15 @@ const About = () => {
               versatile and valuable asset in any development team.
             </p>
             <div className="text-5xl overflow-scroll  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
-              <div className="icon text-blue-500 ">
-                <BiLogoReact className="icon-item text-6xl " />
+              <div className="icon  ">
+                {/* <BiLogoReact className="icon-item text-6xl " /> */}
+                <FaReact />
               </div>
               <div className="icon text-blue-500">
                 <BiLogoBootstrap className="icon-item text-6xl " />
+              </div>
+              <div>
+                <FaPython />
               </div>
               <div className="icon text-blue-500">
                 <BiLogoDjango className="icon-item" />

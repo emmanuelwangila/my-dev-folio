@@ -4,6 +4,7 @@ import Image from "next/image";
 import manu from "../public/manu.jpg";
 import laptop from "../public/laptop.jpg";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { FaReact } from "react-icons/fa6";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import {
