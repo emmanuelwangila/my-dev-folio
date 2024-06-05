@@ -173,7 +173,7 @@ export default function Home() {
         <section>
           <div>
             <div className="flex justify-center  ">
-              <button className="lg:text-2xl sm:text-sm mx-3 py-3 flex  justify-center lg:p-3 sm:p-1    text-white bg-blue-500 rounded-full   font-sans  dark:text-teal-600">
+              <button className="lg:text-2xl sm:text-sm mx-3 py-3 flex  justify-center lg:p-3 sm:p-1    text-white bg-blue-500 rounded-full   font-sans  dark:text-white">
                 Experience{" "}
               </button>
             </div>
