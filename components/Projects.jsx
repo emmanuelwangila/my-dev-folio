@@ -11,13 +11,13 @@ const Projects = () => {
     <div className=" flex flex-col  sm:flex-col  overflow-scroll  ">
       <h1 className=" text-blue-500 font-sans text-4xl m-2 p-2 ">Projects</h1>
       <div className="  lg:flex lg:flex-row md:mx-auto sm:mx-auto">
-        <div className="flex flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
-          <h2 className=" text-blue-500 ">Tender Management System</h2>
+        <div className="flex flex-col cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
+          <h2 className=" text-blue-500 "> KaziQuest </h2>
           <div>
             <p className="dark:text-white">
-              This is a Tender Management Software system, enabling people to
-              create and bid for tenders. Users are able to receive emails upon
-              bidding.
+              This is an Applicant Tracking System , web application that
+              enables employe's to hire the best talent from a group of
+              applicants , applying for a specific job.
             </p>
             <div className="rounded-md flex justify-center h-[250px]">
               <Link></Link>
@@ -27,9 +27,7 @@ const Projects = () => {
             <button className="dark:text-white flex bg-blue-500 m-3 p-3  flex-col rounded-md">
               <span className="text-white">
                 {" "}
-                <a href="https://mern-tender-system.onrender.com/">
-                  Visit the system
-                </a>
+                <a href="https://www.kaziquest.com/">Visit the system</a>
               </span>
             </button>
           </div>
