@@ -115,7 +115,7 @@ export default function Home() {
 
             <div className="font-medium text-gray-600 dark:text-white  py-5 leading-9 ">
               {" "}
-              <div className=" w-[50% ] m-2 p-2 rounde-md">
+              <div className=" w-[50% ] m-2 p-2 rounde-md font-sans">
                 I'm a Full Stack developer, in the realm of front-end
                 development, I'm proficient in utilizing popular JavaScript
                 frameworks such as React , Vue and Next JS. I also have a good
