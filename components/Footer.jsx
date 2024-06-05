@@ -16,8 +16,10 @@ const Footer = () => {
       </div>
       <div className=" ml-2  p-2 lg:flex justify-evenly sm:mx-auto mx-3    ">
         <ul className="flex flex-row m-2 cursor-pointer ">
-          <AiFillTwitterCircle className="text-2xl"></AiFillTwitterCircle>{" "}
-          Twitter
+          <a href=" https://x.com/manuelwangila">
+            <AiFillTwitterCircle className="text-2xl"></AiFillTwitterCircle>{" "}
+            Twitter
+          </a>
         </ul>
         <ul className="flex flex-row m-2 cursor-pointer">
           <AiFillLinkedin className="text-2xl cursor-pointer"></AiFillLinkedin>{" "}
