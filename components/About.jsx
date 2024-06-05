@@ -20,8 +20,8 @@ const About = () => {
           <h3 className="text-5xl py-5 font-sans mx-auto hover:text-blue-600 cursor-pointer  w-[10%] border-b-2 border-teal-500 dark:text-teal-500  text-blue-500 ">
             About
           </h3>
-          <div className="flex lg:flex-row  gap-2     md:w-fit  sm:flex-auto ">
-            <p className=" rounded-md border p-2  border-gray-400 b-m-2 w-[80%]  font-medium text-gray-600 dark:text-white m-4   leading-8 flex flex-row gap-6 ">
+          <div className="flex lg:flex-row  gap-2 hover:text-blue-500 cursor-pointer     md:w-fit  sm:flex-auto ">
+            <p className=" rounded-md border p-2 font-sans hover:text-blue-500  border-gray-400 b-m-2 w-[80%]  font-medium text-gray-600 dark:text-white m-4   leading-8 flex flex-row gap-6 ">
               {" "}
               I'm a software developer doing great designs and website's, Web
               Application Development: <br />
