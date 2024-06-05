@@ -208,6 +208,12 @@ export default function Home() {
               </div>
 
               <div className="">
+                <div className="flex justify-center mx-auto border border-green-500 rounded-md w-3/4">
+                  <h2 className="text-green-800  font-sans">
+                    Kenya Power Lighting Company(KPLC)
+                  </h2>
+                </div>
+
                 <button className="font-sans lg:text-2xl sm:text-sm  m-2  text-white bg-blue-500 rounded-full lg:p-2 sm:p-1  ">
                   Jan 2023 - April 2023
                 </button>
