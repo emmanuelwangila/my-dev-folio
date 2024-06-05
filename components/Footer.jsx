@@ -20,7 +20,8 @@ const Footer = () => {
           Twitter
         </ul>
         <ul>
-          <AiFillLinkedin className="text-2xl"></AiFillLinkedin> LInkedIn
+          <AiFillLinkedin className="text-2xl flex flex-row m-2 cursor-pointer"></AiFillLinkedin>{" "}
+          LInkedIn
         </ul>
         <ul>
           {" "}
