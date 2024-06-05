@@ -14,6 +14,8 @@ import { FaPhp } from "react-icons/fa6";
 import { SiNextdotjs } from "react-icons/si";
 import { SiNuxtdotjs } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io5";
+import { TbBrandReactNative } from "react-icons/tb";
 import "../app/globals.css";
 
 const About = () => {
@@ -105,6 +107,8 @@ const About = () => {
 
                 <div className="icon ">
                   <BiLogoDjango className="icon-item" />
+                  <IoLogoNodejs />
+                  <TbBrandReactNative />
                 </div>
                 <div className="icon ">
                   <BiLogoNetlify className="icon-item" />
