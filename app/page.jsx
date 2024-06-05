@@ -187,6 +187,10 @@ export default function Home() {
 
             <div className="grid grid-cols-2  dark:bg-gray-800 sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
               <div>
+                <div className="flex justify-center mx-auto border border-green-500 rounded-md w-3/4">
+                  <h2 className="text-green-800  font-sans">KaziQuest</h2>
+                </div>
+
                 <button className="text-white  bg-blue-500 lg:p-2 sm:p-1   rounded-full lg:text-2xl sm:text-sm font-sans m-2   ">
                   {" "}
                   April 2023 - Present
