@@ -64,24 +64,21 @@ const About = () => {
               Stack
             </h3>
             <p className=" font-medium m-4  text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
-              React, Vue, and Django are three powerful tools in the web
-              development toolkit. React, a JavaScript library, excels in
-              creating dynamic and reusable user interfaces with its virtual DOM
-              and component-based architecture. <br />
-              Vue, another JavaScript framework, offers flexibility and
-              simplicity for building modern web applications with its
-              reactivity system and component-driven approach.
-              <br />
-              On the back-end, Django, a Python web framework, provides a
-              robust, secure, and highly modular platform for building web
-              applications, complete with an ORM, authentication, and an admin
-              interface.
-              <br />
-              Together, these technologies empower developers to create
-              efficient, interactive, and feature-rich web applications,
-              covering both front-end and back-end aspects of development, and
-              allowing for a wide range of web development projects to be
-              undertaken with confidence.
+              I'm proficient in technologies like JavaScript, React, Vue 3, Nuxt
+              3, Django, Python, PHP, Laravel, CSS, Tailwind CSS, React Native,
+              and CodeIgniter. My journey through the diverse landscape of web
+              and mobile development has endowed me with a robust skill set that
+              thrives on both creativity and technical prowess. From crafting
+              dynamic single-page applications with React and Vue 3 to building
+              robust backends with Django and Laravel, I relish the challenge of
+              translating complex requirements into seamless user experiences.
+              My expertise in Tailwind CSS ensures that my designs are not only
+              visually appealing but also highly responsive. Additionally, my
+              experience with React Native enables me to create sophisticated
+              mobile applications that maintain the elegance and performance of
+              native apps. Each line of code I write is a testament to my
+              commitment to quality, efficiency, and innovation, making me a
+              versatile and valuable asset in any development team.
             </p>
             <div className="text-5xl overflow-scroll  font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
               <div className="icon text-blue-500 ">
