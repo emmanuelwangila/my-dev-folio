@@ -74,7 +74,7 @@ export default function Home() {
                     Projects
                   </Link>
                 </li>
-                <li className="bg-gradient-to-r text-sm  from bg-white cursor-pointer  dark:bg-white p-1  rounded-md border-none px-4 ml-6 text-white">
+                <li className="bg-gradient-to-r text-sm  from bg-white cursor-pointer  dark:bg-white p-1  rounded-full border-none px-4 ml-6 text-blue-500">
                   <Link to="contact" duration={100} smooth={true}>
                     {" "}
                     Contact{" "}
