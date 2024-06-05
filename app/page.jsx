@@ -208,7 +208,7 @@ export default function Home() {
             <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
               Contact Me
             </h3>
-            <div className="flex lg:w-[60%]  md:w-[60%] justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
+            <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
               <form
                 onSubmit={handleFormSubmit}
                 method="POST"
