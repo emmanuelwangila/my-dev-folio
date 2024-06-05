@@ -209,7 +209,7 @@ export default function Home() {
           </div>
         </section>
         <Element name="contact">
-          <section id="contact">
+          <section id="contact" className="font-sans">
             <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
               Contact Me
             </h3>
