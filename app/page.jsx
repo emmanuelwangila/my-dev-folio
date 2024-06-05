@@ -141,18 +141,25 @@ export default function Home() {
           </div>
 
           <div className=" flex cursor-pointer justify-center gap-16 py-3 text-gray-600">
-            <a href={"https://twitter.com/manuelwangila"}>
-              {" "}
-              <AiFillTwitterCircle className="lg:text-5xl hover:text-blue-500 md:text-5xl  sm:text-7xl " />{" "}
-            </a>
-            <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
-              {" "}
-              <AiFillLinkedin className="lg:text-5xl hover:text-blue-500 md:text-5xl sm:text-4xl" />{" "}
-            </a>
-            <a href={"https://github.com/emmanuelwangila"}>
-              {" "}
-              <AiFillGithub className="lg:text-5xl hover:text-blue-500  sm:text-4xl" />{" "}
-            </a>
+            <div className="border border-blue-500 rounded-full m-1 p-1 ">
+              <a href={"https://twitter.com/manuelwangila"}>
+                {" "}
+                <AiFillTwitterCircle className="lg:text-5xl hover:text-blue-500 md:text-5xl  sm:text-7xl " />{" "}
+              </a>
+            </div>
+            <div className="border border-blue-500 rounded-full m-1 p-1 ">
+              <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
+                {" "}
+                <AiFillLinkedin className="lg:text-5xl hover:text-blue-500 md:text-5xl sm:text-4xl" />{" "}
+              </a>
+            </div>
+
+            <div className="border border-blue-500 rounded-full m-1 p-1 ">
+              <a href={"https://github.com/emmanuelwangila"}>
+                {" "}
+                <AiFillGithub className="lg:text-5xl hover:text-blue-500  sm:text-4xl" />{" "}
+              </a>
+            </div>
           </div>
 
           <div className="">
