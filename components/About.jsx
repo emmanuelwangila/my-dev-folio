@@ -15,11 +15,12 @@ const About = () => {
     <div className="lg:flex  md:flex  sm:flex-wrap  rounded-md ">
       <section>
         <div className="  dark:bg-gray-800 rounded-md  mt-4  ">
-          <div className="justify-center text-blue-500  font-sans text-4xl "></div>
+          <div className="flex  mx-auto text-white font-sans  ">
+            <button className="text-2xl bg-blue-500 rounded-full text-white p-2 mx-auto font-sans  hover:text-white cursor-pointer  w-[10%]   dark:text-white   ">
+              About
+            </button>
+          </div>
 
-          <button className="text-2xl text-white py-5 font-sans mx-auto hover:text-blue-600 cursor-pointer  w-[10%] border-b-2 border-teal-500 dark:text-teal-500   ">
-            About
-          </button>
           <div className="flex lg:flex-row  gap-2 hover:text-blue-500 cursor-pointer     md:w-fit  sm:flex-auto ">
             <p className=" rounded-md border p-2 font-sans hover:text-blue-500  border-blue-500 b-m-2 w-[80%]  font-medium text-gray-600 dark:text-white m-4   leading-8 flex flex-row gap-6 ">
               {" "}
