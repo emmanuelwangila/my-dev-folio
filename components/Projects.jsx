@@ -32,7 +32,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="flex hover:bg-blue-500 flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
+        <div className="flex hover:bg-blue-500 cursor-pointer flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
           <h2 className="text-blue-800 uppercase  ">3D Meta Landing Page</h2>
           <div className="w-full  h-[250px] flex justify-center rounded-md">
             <Link to=" http://metacom.vercel.app/"></Link>
