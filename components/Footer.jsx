@@ -14,7 +14,10 @@ const Footer = () => {
         <h4>@2024 All Rights Reserved</h4>
       </div>
       <div className=" ml-2  p-2 lg:flex justify-evenly sm:mx-auto mx-3    ">
-        <ul>Twitter</ul>
+        <ul className="flex flex-row m-2 cursor-pointer ">
+          <AiFillTwitterCircle className="text-2xl"></AiFillTwitterCircle>{" "}
+          Twitter
+        </ul>
         <ul>LInkedIn</ul>
         <ul>emmanuelwangila1@gmail.com</ul>
         <ul>Github</ul>
