@@ -16,6 +16,7 @@ import {
 import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Link, Element } from "react-scroll";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -244,13 +245,9 @@ export default function Home() {
           </section>
         </Element>
 
-        <section className=" ">
-          <div className="border  h-full py-20 w-full   lg:flex lg:flex-row  gap-5   lg:w-full md:w-[60%] sm:w-[100%] sm:flex-wrap  border-b border-blue-300 text-blue-600  font-sans  m-4 p-4 rounded-md">
-            <h3>Developedby Emmanuel Wangila</h3>
-            <h4>phone: 0798719417</h4>
-            <h4>@2024 All Rights Reserved</h4>
-          </div>
-        </section>
+        <div>
+          <Footer />
+        </div>
       </main>
     </div>
   );
