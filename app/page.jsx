@@ -57,8 +57,8 @@ export default function Home() {
     <div className={darkMode ? "dark" : " "}>
       <main className=" w-full  bg-slate-100 overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
-          <nav className="flex border-b  border-gray-500  rounded-md  justify-between py-10 sm:py-5 sm:flex-wrap  mb-12 ">
-            <h1 className="text-md text-blue-700  dark:text-teal-600 font-sans  cursor-pointer ">
+          <nav className="flex border-b bg-blue-500 p-4   border-gray-500  rounded-md  justify-between   sm:flex-wrap  mb-12 ">
+            <h1 className="text-md text-white  dark:text-white font-sans  cursor-pointer ">
               porfolio
             </h1>
             {/* <About /> */}
