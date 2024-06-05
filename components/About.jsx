@@ -61,9 +61,12 @@ const About = () => {
 
         <div>
           <div className="  dark:bg-gray-800 font-sans  rounded-md border-teal-600  py-10 mb-10 ">
-            <h3 className="text-blue-500 hover:text-blue-500 cursor-pointer dark:text-teal-600 py-5 font-sans mx-4 flex  text-5xl justify-center ">
-              Stack
-            </h3>
+            <div>
+              <button className="text-blue-500 hover:text-blue-500 cursor-pointer dark:text-teal-600 py-5 font-sans mx-4 flex  text-5xl justify-center ">
+                Stack
+              </button>
+            </div>
+
             <p className=" font-medium m-4  text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
               I'm proficient in technologies like JavaScript, React, Vue 3, Nuxt
               3, Django, Python, PHP, Laravel, CSS, Tailwind CSS, React Native,
