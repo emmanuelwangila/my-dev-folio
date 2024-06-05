@@ -225,9 +225,12 @@ export default function Home() {
         </section>
         <Element name="contact">
           <section id="contact" className="font-sans">
-            <h3 className="text-blue-500 font-sans mx-3 py-3 text-3xl dark:text-teal-600 ">
-              Contact Me
-            </h3>
+            <div className="flex justify-center ">
+              <button className="text-white bg-blue-500 rounded-full  font-sans mx-3 py-3 lg:text-2xl sm:text-sm dark:text-white ">
+                Contact Me
+              </button>
+            </div>
+
             <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
               <form
                 onSubmit={handleFormSubmit}
