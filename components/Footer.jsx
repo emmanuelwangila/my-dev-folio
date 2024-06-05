@@ -28,7 +28,9 @@ const Footer = () => {
           {/* <AiFillGmail className="text-2xl "></AiFillGmail> */}
           emmanuelwangila1@gmail.com
         </ul>
-        <ul>Github</ul>
+        <ul className="flex flex-row m-2  cursor-pointer">
+          <AiFillGithub className="text-2xl"></AiFillGithub> Github
+        </ul>
       </div>
     </div>
   );
