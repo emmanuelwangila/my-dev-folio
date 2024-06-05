@@ -2,6 +2,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
+  AiFillGmail,
   AiFillReact,
 } from "react-icons/ai";
 
@@ -23,7 +24,7 @@ const Footer = () => {
         </ul>
         <ul>
           {" "}
-          <AiFillGithub className="text-2xl "></AiFillGithub>
+          {/* <AiFillGmail className="text-2xl "></AiFillGmail> */}
           emmanuelwangila1@gmail.com
         </ul>
         <ul>Github</ul>
