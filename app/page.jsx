@@ -84,7 +84,7 @@ export default function Home() {
             </div>
           </nav>
 
-          <div className=" flex flex-col   text-center">
+          <div className=" flex flex-col font-sans   text-center">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -99,18 +99,19 @@ export default function Home() {
               ]}
               wrapper="span"
               speed={50}
-              style={{
-                fontSize: "3em",
-                color: "blue",
-                display: "flex",
-                font: "bold",
-                fontFamily: "sans",
-                backgroundColor: "bg-500",
-                margin: "5px",
-                justifyContent: "center",
-                justifyItems: "center", // assuming bg-500 is a Tailwind CSS class
-              }}
+              // style={{
+              //   fontSize: "3em",
+              //   color: "blue",
+              //   display: "flex",
+              //   font: "bold",
+              //   fontFamily: "sans",
+              //   backgroundColor: "bg-500",
+              //   margin: "5px",
+              //   justifyContent: "center",
+              //   justifyItems: "center",
+              // }}
               repeat={Infinity}
+              className="font-sans text-3xl text-blue-500  "
             />
 
             <div className="font-medium text-gray-600 dark:text-white  py-5 leading-9 ">
