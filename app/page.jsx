@@ -231,7 +231,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-teal-500">
+            <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-gray-400">
               <form
                 onSubmit={handleFormSubmit}
                 method="POST"
@@ -260,7 +260,7 @@ export default function Home() {
                   className="p-3 m-2 w-full bg-gray-200 border border-blue-300 rounded-md  "
                   placeholder="Input your message here "
                 ></textarea>
-                <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-md ">
+                <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-full ">
                   Submit
                 </button>
               </form>
