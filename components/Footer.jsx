@@ -1,3 +1,10 @@
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillReact,
+} from "react-icons/ai";
+
 const Footer = () => {
   return (
     <div className="bg-blue-500 min-h-full text-white rounded-md w-full">
