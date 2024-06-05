@@ -59,7 +59,7 @@ const About = () => {
         </div>
 
         <div>
-          <div className="  dark:bg-gray-800  rounded-md border-teal-600  py-10 mb-10 ">
+          <div className="  dark:bg-gray-800 font-sans  rounded-md border-teal-600  py-10 mb-10 ">
             <h3 className="text-blue-500 hover:text-blue-500 cursor-pointer dark:text-teal-600 py-5 font-sans mx-4 flex  text-5xl justify-center ">
               Stack
             </h3>
