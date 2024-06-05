@@ -21,7 +21,11 @@ const Footer = () => {
         <ul>
           <AiFillLinkedin className="text-2xl"></AiFillLinkedin> LInkedIn
         </ul>
-        <ul>emmanuelwangila1@gmail.com</ul>
+        <ul>
+          {" "}
+          <AiFillGithub className="text-2xl "></AiFillGithub>
+          emmanuelwangila1@gmail.com
+        </ul>
         <ul>Github</ul>
       </div>
     </div>
