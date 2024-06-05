@@ -5,6 +5,7 @@ import {
   AiFillGmail,
   AiFillReact,
 } from "react-icons/ai";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -28,11 +29,7 @@ const Footer = () => {
               LInkedIn
             </a>
           </ul>
-          <ul className="cursor-pointer">
-            {" "}
-            {/* <AiFillGmail className="text-2xl "></AiFillGmail> */}
-            emmanuelwangila1@gmail.com
-          </ul>
+          <ul className="cursor-pointer"> emmanuelwangila1@gmail.com</ul>
           <ul className="flex flex-row m-2  cursor-pointer">
             <AiFillGithub className="text-2xl"></AiFillGithub> Github
           </ul>
