@@ -4,6 +4,7 @@ import forlio from "../public/forlio.jpg";
 import tender from "../public/tender.jpg";
 import anime from "../public/anime.jpg";
 import manu from "../public/manu.jpg";
+import ayepo from "../public/ayepo-logo.jpg";
 import { Link } from "react-scroll";
 
 const Projects = () => {
@@ -20,13 +21,13 @@ const Projects = () => {
           <h2 className=" text-blue-800 "> AYEPO AFRICA </h2>
           <div className="">
             <p className="dark:text-white">
-              This is an Applicant Tracking System , web application that
-              enables employe's to hire the best talent from a group of
-              applicants , applying for a specific job.
+              A website for a youth NGO in Nairobi Kenya , for empowering the
+              youth and support them from the various socail economic and mental
+              challenges that they encounter within the community .
             </p>
-            <div className="rounded-md flex justify-center h-[250px]">
+            <div className="rounded-md flex justify-center w-[250px] h-[250px]">
               <Link></Link>
-              <Image src={tender} className="rounded-md " />
+              <Image src={ayepo} className="rounded-md " />
             </div>
 
             <button className="dark:text-white flex bg-green-500 m-3 p-3  flex-col rounded-md">
