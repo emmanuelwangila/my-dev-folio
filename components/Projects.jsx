@@ -17,6 +17,28 @@ const Projects = () => {
 
       <div className="  lg:flex lg:flex-row md:mx-auto sm:mx-auto">
         <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
+          <h2 className=" text-blue-800 "> AYEPO AFRICA </h2>
+          <div className="">
+            <p className="dark:text-white">
+              This is an Applicant Tracking System , web application that
+              enables employe's to hire the best talent from a group of
+              applicants , applying for a specific job.
+            </p>
+            <div className="rounded-md flex justify-center h-[250px]">
+              <Link></Link>
+              <Image src={tender} className="rounded-md " />
+            </div>
+
+            <button className="dark:text-white flex bg-green-500 m-3 p-3  flex-col rounded-md">
+              <span className="text-white">
+                {" "}
+                <a href="https://ayepoafrica.org/">Visit the system</a>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
           <h2 className=" text-blue-800 "> KaziQuest </h2>
           <div className="">
             <p className="dark:text-white">
