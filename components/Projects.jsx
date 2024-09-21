@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
 
       <div className="  lg:flex lg:flex-row md:mx-auto sm:mx-auto">
-        {/* <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
+        <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
           <h2 className=" text-blue-800 "> AYEPO AFRICA </h2>
           <div className="">
             <p className="dark:text-white">
@@ -37,7 +37,7 @@ const Projects = () => {
               </span>
             </button>
           </div>
-        </div> */}
+        </div>
 
         <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
           <h2 className=" text-blue-800 "> KaziQuest </h2>
