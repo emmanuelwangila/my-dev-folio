@@ -21,9 +21,9 @@ const Projects = () => {
           <h2 className=" text-blue-800 "> TENDER MANAGEMENT SYSTEM </h2>
           <div className="">
             <p className="dark:text-white">
-              A website for a youth NGO in Nairobi Kenya , for empowering the
-              youth and support them from the various socail economic and mental
-              challenges that they encounter within the community .
+              A modern procurement and automated tender management system , with
+              automation through emailng and onlne application of tenders at
+              large .
             </p>
             <div className="rounded-md flex justify-center w-[250px] h-[250px]">
               <Link></Link>
