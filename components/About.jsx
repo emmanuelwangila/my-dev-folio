@@ -1,5 +1,6 @@
-// About.js
 import React from "react";
+import developer from "../public/Developer.png";
+import Image from "next/image";
 import {
   BiLogoReact,
   BiLogoBootstrap,
@@ -7,31 +8,45 @@ import {
   BiLogoNetlify,
   BiLogoVuejs,
   BiLogoJavascript,
-} from "react-icons/bi";
-import { FaReact } from "react-icons/fa6";
-import { FaPython } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa6";
-import { SiNextdotjs } from "react-icons/si";
-import { SiNuxtdotjs } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { IoLogoNodejs } from "react-icons/io5";
-import { TbBrandReactNative } from "react-icons/tb";
+} from "react-icons/bi"; // 'bi' icons
+
+import { FaReact, FaPhp, FaPython } from "react-icons/fa"; // 'fa' icons
+import {
+  SiNextdotjs,
+  SiNuxtdotjs,
+  SiTailwindcss,
+  SiSpring,
+  SiAngular,
+  SiOracle,
+  SiPostgresql,
+} from "react-icons/si"; // 'si' icons
+
+import { IoLogoNodejs } from "react-icons/io5"; // 'io5' icons
+import { TbBrandReactNative } from "react-icons/tb"; // 'tb' icons
 import "../app/globals.css";
 
 const About = () => {
   return (
-    <div className="lg:flex  md:flex  sm:flex-wrap  rounded-md ">
+    <div className="lg:flex md:flex sm:flex-wrap rounded-md">
       <section>
-        <div className="  dark:bg-gray-800 rounded-md  mt-4  ">
-          <div className="flex  mx-auto text-white font-sans  ">
-            <button className="text-2xl bg-blue-500 rounded-full text-white p-2 mx-auto font-sans  hover:text-white cursor-pointer  dark:text-white   ">
+        <div className="dark:bg-gray-800 rounded-md mt-4">
+          <div className="flex mx-auto text-white font-sans">
+            <button className="text-2xl bg-blue-500 rounded-full text-white p-2 mx-auto font-sans hover:text-white cursor-pointer dark:text-white">
               About
             </button>
           </div>
 
-          <div className="flex lg:flex-row  gap-2 hover:text-blue-500 cursor-pointer     md:w-fit  sm:flex-auto ">
-            <p className=" rounded-md border p-2 font-sans hover:text-blue-500  border-blue-500 b-m-2 w-[80%]  font-medium text-gray-600 dark:text-white m-4   leading-8 flex flex-row gap-6 ">
-              {" "}
+          {/* Add Developer Image */}
+          <div className="flex justify-center mt-6">
+            <Image
+              src={developer}
+              alt="3D Developer"
+              className="w-1/2 rounded-md shadow-lg"
+            />
+          </div>
+
+          <div className="flex lg:flex-row gap-2 hover:text-blue-500 cursor-pointer md:w-fit sm:flex-auto">
+            <p className="rounded-md border p-2 font-sans hover:text-blue-500 border-blue-500 b-m-2 w-[80%] font-medium text-gray-600 dark:text-white m-4 leading-8 flex flex-row gap-6">
               I'm a software developer doing great designs and website's, Web
               Application Development: <br />
               Creating web applications using React and Vue to deliver
@@ -45,37 +60,24 @@ const About = () => {
               Build SPAs that load once and dynamically update content without
               requiring full-page refreshes, providing a smoother user
               experience. I'm also able to interact with data from the back-end
-              and consuming api- data to be intergrated in front-end
-              applications. I have good skills set in Dj'ango MVC model, also
-              Lravel using Inretia for React and Vue , for designing user
-              interfaces and for the best user experience's. Not to foorget Node
-              Js, and Express and it's framework, I have skills to match api
-              modeling and creation and Controllers for functionalities and
-              working of both front-end and back-end applications.
+              and consuming API data to be integrated in front-end applications.
+              I have good skills in Django MVC model, Laravel using Inertia for
+              React and Vue, Node.js, and Express. I also have expertise in
+              creating APIs and controllers for both front-end and back-end
+              applications.
             </p>
           </div>
-
-          {/* <p className=" font-medium text-gray-600 m-4  dark:text-white  py-5 leading-8 flex justify-center">
-            {" "}
-            I'm a software developer doing great designs and website's, API
-            Development: Design and build RESTful or GraphQL APIs to enable
-            communication between the front-end and back-end. Database
-            Management: Set up, configure, and manage databases (e.g.,
-            PostgreSQL, MySQL) to store and retrieve data efficiently.
-            Authentication and Authorization: Implement user authentication and
-            authorization systems to secure the application's resources
-          </p> */}
         </div>
 
         <div>
-          <div className="  dark:bg-gray-800 font-sans  rounded-md border-teal-600  py-10 mb-10 ">
+          <div className="dark:bg-gray-800 font-sans rounded-md border-teal-600 py-10 mb-10">
             <div className="flex mx-auto justify-center">
-              <button className="text-white lue-500 bg-blue-500 rounded-full lg:p-2 sm:p-1   cursor-pointer dark:text-white py-2 font-sans mx-4 flex  text-2xl justify-center ">
-                Stack | Technlogies
+              <button className="text-white bg-blue-500 rounded-full lg:p-2 sm:p-1 cursor-pointer dark:text-white py-2 font-sans mx-4 flex text-2xl justify-center">
+                Stack | Technologies
               </button>
             </div>
 
-            <p className=" font-medium m-4  text-gray-600 dark:text-white  py-5 leading-8 flex justify-center">
+            <p className="font-medium m-4 text-gray-600 dark:text-white py-5 leading-8 flex justify-center">
               I'm proficient in technologies like JavaScript, React, Vue 3, Nuxt
               3, Django, Python, PHP, Laravel, CSS, Tailwind CSS, React Native,
               and CodeIgniter. My journey through the diverse landscape of web
@@ -88,40 +90,40 @@ const About = () => {
               visually appealing but also highly responsive. Additionally, my
               experience with React Native enables me to create sophisticated
               mobile applications that maintain the elegance and performance of
-              native apps. Each line of code I write is a testament to my
-              commitment to quality, efficiency, and innovation, making me a
-              versatile and valuable asset in any development team.
+              native apps. I also have expertise in Spring Boot, Angular,
+              Oracle, and PL/SQL for backend development.
             </p>
-            <div className="text-5xl overflow-scroll flex-col   font-bold flex px-8 mx-auto justify-center  gap-16  py-10 icons-container">
-              <div className=" grid grid-cols-3 ">
-                <div className="icon  ">
-                  {/* <BiLogoReact className="icon-item text-6xl " /> */}
+
+            <div className="text-5xl overflow-scroll flex-col font-bold flex px-8 mx-auto justify-center gap-16 py-10 icons-container">
+              <div className="grid grid-cols-3">
+                <div className="icon">
                   <FaReact />
                   <SiNuxtdotjs />
                   <SiTailwindcss />
                 </div>
-                <div className="icon ">
-                  <BiLogoBootstrap className="icon-item text-6xl " />
+                <div className="icon">
+                  <BiLogoBootstrap />
                   <SiNextdotjs />
                 </div>
-
-                <div className="icon ">
-                  <BiLogoDjango className="icon-item" />
+                <div className="icon">
+                  <BiLogoDjango />
                   <IoLogoNodejs />
                   <TbBrandReactNative />
                 </div>
-                <div className="icon ">
-                  <BiLogoNetlify className="icon-item" />
+                <div className="icon">
+                  <BiLogoNetlify />
                 </div>
-                <div className="icon ">
-                  <BiLogoJavascript className="icon-item" />
-                  <div>
-                    <FaPython />
-                    <FaPhp />
-                  </div>
+                <div className="icon">
+                  <BiLogoJavascript />
+                  <FaPython />
+                  <FaPhp />
                 </div>
-                <div className="icon ">
-                  <BiLogoVuejs className="icon-item" />
+                <div className="icon">
+                  <BiLogoVuejs />
+                  <SiSpring />
+                  <SiAngular />
+                  <SiOracle />
+                  <SiPostgresql />
                 </div>
               </div>
             </div>
