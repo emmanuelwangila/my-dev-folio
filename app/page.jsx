@@ -186,57 +186,86 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="grid grid-cols-2  dark:bg-gray-800 sm:w-fit sm:gap-4  md:flex-wrap py-10 mb-5 rounded-md shadow-lg">
-              <div>
-                <div className="flex justify-center mx-auto border border-green-500 rounded-md w-3/4">
-                  <h2 className="text-green-800  font-sans">KaziQuest</h2>
+            <div className="dark:text-white font-sans p-8 rounded-md shadow-lg">
+              {/* Job 1 */}
+              <div className="mb-8 dark:text-white">
+                <h3 className="text-2xl font-semibold text-teal-600">
+                  Web Developer - KaziQuest
+                </h3>
+                <p className="text-gray-600 italic">June 2022 - July 2023</p>
+                <ul className="list-disc list-inside mt-2 ">
+                  <li>
+                    Developed and maintained websites using{" "}
+                    <i className="fab fa-nuxt"></i> Nuxt 3,{" "}
+                    <i className="fab fa-react"></i> React, and{" "}
+                    <i className="fab fa-wordpress"></i> WordPress.
+                  </li>
+                  <li>
+                    Implemented back-end features with{" "}
+                    <i className="fab fa-python"></i> Python and{" "}
+                    <i className="fab fa-postgresql"></i> PostgreSQL to handle
+                    complex data queries and processing.
+                  </li>
+                  <li>
+                    Deployed web applications using{" "}
+                    <i className="fab fa-nginx"></i> Nginx and ensured smooth
+                    CI/CD pipelines using <i className="fab fa-github"></i>{" "}
+                    GitHub Actions.
+                  </li>
+                  <li>
+                    Collaborated on code reviews and maintained code quality
+                    standards using GitHub’s pull request feature, increasing
+                    team productivity.
+                  </li>
+                  <li>
+                    Worked in an Agile environment, optimizing website
+                    performance and reducing load times by over 30%.
+                  </li>
+                </ul>
+                <div className="flex space-x-4 mt-4">
+                  <i className="fab fa-nuxt text-3xl text-green-500"></i>
+                  <i className="fab fa-react text-3xl text-blue-500"></i>
+                  <i className="fab fa-python text-3xl text-yellow-500"></i>
+                  <i className="fab fa-postgresql text-3xl text-blue-800"></i>
+                  <i className="fab fa-nginx text-3xl text-green-600"></i>
+                  <i className="fab fa-github text-3xl text-black"></i>
                 </div>
-
-                <button className="text-white  bg-blue-500 lg:p-2 sm:p-1   rounded-full lg:text-2xl sm:text-sm font-sans m-2   ">
-                  {" "}
-                  April 2023 - Present
-                </button>
-                <p className=" grid-flow-col m-2  font-sans  font-medium text-gray-600 dark:text-white  py-5 leading-8 ">
-                  At KaziQuest, I honed my skills in designing UI/UX using Nuxt
-                  3 for the front-end and Django for the back-end. My
-                  responsibilities included code reviews, Git version control,
-                  testing, and consuming APIs from the back-end, ensuring
-                  seamless integration and high-quality user experiences. I
-                  expertly crafted dynamic front-end experiences while
-                  leveraging Django for robust back-end functionality. My role
-                  encompassed meticulous code reviews, efficient version control
-                  with Git, and rigorous testing, ensuring top-notch performance
-                  and user satisfaction. Through these efforts, I contributed to
-                  creating seamless, responsive, and highly functional web
-                  applications that delighted users and met business objectives.
-                </p>
               </div>
 
-              <div className="">
-                <div className="flex justify-center mx-auto border border-green-500 rounded-md w-3/4">
-                  <h2 className="text-green-800  font-sans">
-                    Kenya Power Lighting Company(KPLC)
-                  </h2>
+              {/* Job 2 */}
+              <div className="mb-8">
+                <h3 className="text-2xl font-semibold text-teal-600">
+                  Information Technology Intern - KPLC
+                </h3>
+                <p className="text-gray-600 italic">August 2021 - May 2022</p>
+                <ul className="list-disc list-inside mt-2 ">
+                  <li>
+                    Built RESTful APIs using <i className="fab fa-java"></i>{" "}
+                    Java and <i className="fab fa-spring"></i> Spring Boot for
+                    managing large-scale data transactions.
+                  </li>
+                  <li>
+                    Integrated <i className="fab fa-mysql"></i> MySQL databases
+                    to manage user data and optimized query performance.
+                  </li>
+                  <li>
+                    Collaborated with the frontend team to create seamless
+                    integrations using <i className="fab fa-angular"></i>{" "}
+                    Angular.
+                  </li>
+                  <li>
+                    Implemented unit testing using{" "}
+                    <i className="fas fa-code"></i> JUnit and Mockito,
+                    increasing code coverage by 25%.
+                  </li>
+                </ul>
+                <div className="flex space-x-4 mt-4">
+                  <i className="fab fa-java text-3xl text-red-500"></i>
+                  <i className="fab fa-spring text-3xl text-green-500"></i>
+                  <i className="fab fa-mysql text-3xl text-blue-500"></i>
+                  <i className="fab fa-angular text-3xl text-red-600"></i>
+                  <i className="fas fa-code text-3xl text-gray-800"></i>
                 </div>
-
-                <button className="font-sans lg:text-2xl sm:text-sm  m-2  text-white bg-blue-500 rounded-full lg:p-2 sm:p-1  ">
-                  Jan 2023 - April 2023
-                </button>
-                <p className="grid-flow-col m-3  font-sans font-medium text-gray-600 dark:text-white  leading-8 ">
-                  At Kenya Power, I excelled in networking, project management,
-                  routing, and hardware and software solutions. My role involved
-                  comprehensive database management, software installations, and
-                  troubleshooting technical issues. I collaborated closely with
-                  Kenya Power engineers, providing essential assistance and
-                  meticulous documentation for IT projects. Through strategic
-                  project management and hands-on technical expertise, I ensured
-                  seamless operations and contributed to the successful
-                  implementation of various IT initiatives, enhancing the
-                  overall efficiency and reliability of Kenya Power's
-                  technological infrastructure. My dynamic skill set and
-                  proactive approach drove continuous improvements and
-                  streamlined processes within the organization.
-                </p>
               </div>
             </div>
           </div>
