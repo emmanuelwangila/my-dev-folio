@@ -45,7 +45,7 @@ const About = () => {
             />
           </div>
 
-          <div className="flex lg:flex-row gap-2 hover:text-blue-500 cursor-pointer md:w-fit sm:flex-auto">
+          <div className="flex justify-center lg:flex-row gap-2 hover:text-blue-500 cursor-pointer md:w-fit sm:flex-auto">
             <p className="rounded-md border p-2 font-sans hover:text-blue-500 border-blue-500 b-m-2 w-[80%] font-medium text-gray-600 dark:text-white m-4 leading-8 flex flex-row gap-6">
               I'm a software developer doing great designs and website's, Web
               Application Development: <br />
@@ -112,16 +112,17 @@ const About = () => {
                 </div>
                 <div className="icon">
                   <BiLogoNetlify />
+                  <SiSpring />
                 </div>
                 <div className="icon">
                   <BiLogoJavascript />
                   <FaPython />
+                  <SiAngular />
                   <FaPhp />
                 </div>
                 <div className="icon">
                   <BiLogoVuejs />
-                  <SiSpring />
-                  <SiAngular />
+
                   <SiOracle />
                   <SiPostgresql />
                 </div>
