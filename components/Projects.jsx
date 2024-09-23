@@ -4,6 +4,7 @@ import forlio from "../public/forlio.jpg";
 import tender from "../public/tender.jpg";
 import anime from "../public/anime.jpg";
 import manu from "../public/manu.jpg";
+import laptop from "../public/laptop.jpg";
 import ayepo from "../public/ayepo-logo.jpg";
 import { Link } from "react-scroll";
 
@@ -27,13 +28,15 @@ const Projects = () => {
             </p>
             <div className="rounded-md flex justify-center w-[250px] h-[250px]">
               <Link></Link>
-              <Image src={ayepo} className="rounded-md " />
+              <Image src={laptop} className="rounded-md " />
             </div>
 
             <button className="dark:text-white flex bg-green-500 m-3 p-3  flex-col rounded-md">
               <span className="text-white">
                 {" "}
-                <a href="https://ayepoafrica.org/">Visit the system</a>
+                <a href="https://mern-tender-system.onrender.com/sign-in">
+                  Visit the system
+                </a>
               </span>
             </button>
           </div>
