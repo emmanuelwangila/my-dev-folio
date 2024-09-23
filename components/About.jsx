@@ -94,7 +94,7 @@ const About = () => {
               Oracle, and PL/SQL for backend development.
             </p>
 
-            <div className="text-5xl overflow-scroll flex-col font-bold flex px-8 mx-auto justify-center gap-16 py-10 icons-container">
+            <div className="text-5xl overflow-scroll flex-row  font-bold flex px-8 mx-auto justify-center gap-16 py-10 icons-container">
               <div className="grid grid-cols-3">
                 <div className="icon">
                   <FaReact />
