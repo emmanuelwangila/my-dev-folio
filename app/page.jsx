@@ -70,12 +70,14 @@ export default function Home() {
           message: "Form submission failed, please try again.",
           success: false,
         });
+        toast.error("Form submission failed , please enter all the fields");
       }
     } catch (error) {
       setFormStatus({
         message: "Error during form submission.",
         success: false,
       });
+      toast.error("Form submission failed , please try again");
     }
   };
 
