@@ -9,6 +9,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 import {
   AiFillTwitterCircle,
@@ -27,7 +28,10 @@ export default function Home() {
 
   const [formStatus, setFormStatus] = useState({ message: "", success: null });
 
-  const [submitted, setSubmission] = useState(false);
+  const handleWhatsAppClick = () => {
+    const whatsappNumber = "254798719417";
+    const appMessage = "Hi I would like to know more about you";
+  };
 
   useEffect(() => {
     if (formStatus.message) {
