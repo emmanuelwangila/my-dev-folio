@@ -277,6 +277,17 @@ export default function Home() {
             </div>
 
             <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-gray-400">
+              <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+              />
               <form
                 onSubmit={handleFormSubmit}
                 method="POST"
