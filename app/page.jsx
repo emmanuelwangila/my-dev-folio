@@ -22,6 +22,8 @@ import Footer from "@/components/Footer";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
+  const [formStatus, setFormStatus] = useState({ message: "", success: null });
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
 
@@ -34,6 +36,16 @@ export default function Home() {
       message: e.target.message.value,
     };
 
+    if (
+      !formData.name ||
+      !formData.phone ||
+      !formData.location ||
+      !formData.message
+    ) {
+      setFormStatus({ message: "All fields are required.", success: false });
+      return;
+    }
+
     try {
       const response = await fetch(formUrl, {
         method: "POST",
@@ -44,13 +56,21 @@ export default function Home() {
       });
 
       if (response.ok) {
-        console.log("Form submitted successfully");
-        // You can perform additional actions after successful submission
+        setFormStatus({
+          message: "Form submitted successfully!",
+          success: true,
+        });
       } else {
-        console.error("Form submission failed");
+        setFormStatus({
+          message: "Form submission failed, please try again.",
+          success: false,
+        });
       }
     } catch (error) {
-      console.error("Error during form submission:", error);
+      setFormStatus({
+        message: "Error during form submission.",
+        success: false,
+      });
     }
   };
 
@@ -285,6 +305,16 @@ export default function Home() {
                 <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-full ">
                   Submit
                 </button>
+
+                {formStatus.message && (
+                  <p
+                    className={`text-center ${
+                      formStatus.success ? "text-green-600" : "text-red-600"
+                    }`}
+                  >
+                    {formStatus.message}
+                  </p>
+                )}
               </form>
             </div>
           </section>
