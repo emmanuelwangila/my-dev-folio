@@ -7,6 +7,9 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FaReact } from "react-icons/fa6";
 import About from "../components/About";
 import Projects from "../components/Projects";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -43,6 +46,7 @@ export default function Home() {
       !formData.message
     ) {
       setFormStatus({ message: "All fields are required.", success: false });
+      toast.error("All fields are required ");
       return;
     }
 
@@ -60,6 +64,7 @@ export default function Home() {
           message: "Form submitted successfully!",
           success: true,
         });
+        toast.success("Form submitted succesfully");
       } else {
         setFormStatus({
           message: "Form submission failed, please try again.",
