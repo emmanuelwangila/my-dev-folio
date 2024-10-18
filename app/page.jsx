@@ -30,13 +30,10 @@ export default function Home() {
 
   const handleWhatsAppClick = () => {
     const whatsappNumber = "254798719417";
-    const appMessage = "Hi I would like to know more about you";
+    // const appMessage = "Hi I would like to know more about you";
 
-    const encodedMessage = encodeURIComponent(appMessage);
-    window.open(
-      `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
-      "_blank"
-    );
+    // const encodedMessage = encodeURIComponent(appMessage);
+    window.open(`https://wa.me/${whatsappNumber}?`, "_blank");
   };
 
   useEffect(() => {
