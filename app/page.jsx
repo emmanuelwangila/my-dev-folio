@@ -31,6 +31,12 @@ export default function Home() {
   const handleWhatsAppClick = () => {
     const whatsappNumber = "254798719417";
     const appMessage = "Hi I would like to know more about you";
+
+    const encodedMessage = encodeURIComponent(appMessage);
+    window.open(
+      `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
+      "_blank"
+    );
   };
 
   useEffect(() => {
@@ -360,6 +366,15 @@ export default function Home() {
         </Element>
 
         <div className=" w-screen">
+          <div className="whatsapp-icon flex justify-end m-2 p-2 ">
+            <button
+              onClick={handleWhatsAppClick}
+              className="flex items-center justify-center p-2 bg-green-500 rounded-full text-white shadow-md hover:bg-green-600"
+              aria-label="Chat on WhatsApp"
+            >
+              <FaWhatsapp size={32} />
+            </button>
+          </div>
           <Footer className="w-screen" />
         </div>
       </main>
