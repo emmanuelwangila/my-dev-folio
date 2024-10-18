@@ -17,7 +17,7 @@ import {
   AiFillReact,
 } from "react-icons/ai";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Link, Element } from "react-scroll";
 import Footer from "@/components/Footer";
@@ -26,6 +26,19 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   const [formStatus, setFormStatus] = useState({ message: "", success: null });
+
+  const [submitted, setSubmission] = useState(false);
+
+  useEffect(() => {
+    if (formStatus.message) {
+      const timer = setTimeout(() => {
+        setFormStatus({ message: "", success: null });
+      }, 5000); // 5 seconds timeout
+
+      // Clean up the timeout when component unmounts or when formStatus changes
+      return () => clearTimeout(timer);
+    }
+  }, [formStatus]);
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -61,16 +74,19 @@ export default function Home() {
 
       if (response.ok) {
         setFormStatus({
-          message: "Form submitted successfully!",
+          message: "Form has been submitted succesfully",
           success: true,
         });
+
         toast.success("Form submitted succesfully");
+        e.target.reset();
       } else {
         setFormStatus({
           message: "Form submission failed, please try again.",
           success: false,
         });
         toast.error("Form submission failed , please enter all the fields");
+        e.target.reset();
       }
     } catch (error) {
       setFormStatus({
@@ -78,6 +94,7 @@ export default function Home() {
         success: false,
       });
       toast.error("Form submission failed , please try again");
+      e.target.reset();
     }
   };
 
