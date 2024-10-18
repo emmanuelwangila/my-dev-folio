@@ -260,23 +260,27 @@ export default function Home() {
                   id="name"
                   name="name"
                   placeholder="Enter  your name"
+                  required
                 ></input>
                 <input
                   className="name p-3 m-2  w-full bg-gray-100 rounded-md border border-blue-300 "
                   id="phone"
                   name="phone"
                   placeholder="Enter your phoneNumber"
+                  required
                 ></input>
                 <input
                   className="name p-3 m-2 w-full border border-blue-300 bg-gray-100 rounded-md"
                   id="location"
                   name="location"
                   placeholder="Enter your location"
+                  required
                 ></input>
                 <textarea
                   name="message"
                   className="p-3 m-2 w-full bg-gray-200 border border-blue-300 rounded-md  "
                   placeholder="Input your message here "
+                  required
                 ></textarea>
                 <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-full ">
                   Submit
