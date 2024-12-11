@@ -143,7 +143,7 @@ export default function Home() {
           </nav>
 
           <div className=" flex flex-col font-sans   text-center">
-            <TypeAnimation
+            {/* <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "Emmanuel Wangila",
@@ -168,27 +168,18 @@ export default function Home() {
               // }}
               repeat={Infinity}
               className="font-sans text-3xl text-blue-500  "
-            />
+            /> */}
 
-            <div className="font-medium text-gray-600 dark:text-white  py-5 leading-9 ">
-              {" "}
-              <div className=" w-[50% ] m-2 p-2 rounde-md font-sans">
-                I'm a Full Stack developer, in the realm of front-end
-                development, I'm proficient in utilizing popular JavaScript
-                frameworks such as React , Vue and Next JS. I also have a good
-                grasp of PHP , using it's Framework Laravel for web development
-                and back-end database modelling, proficiency in intergrating
-                Inertia with React , Vue with Laravel and CodeIgniter.
-                <br />
-                My mastery of these libraries allows me to craft elegant and
-                responsive user interfaces that not only look stunning but also
-                <br />
-                deliver exceptional user experiences. Whether it's building
-                dynamic web applications or designing engaging user interfaces,
-                <br />
-                Also back-end intergration and modeling of the server to
-                communicate via API's to the client side and database design.
-              </div>
+            <div className="w-full h-full m-3 p-3 font-sans ">
+              <h3 className="font-sans uppercase font-bold text-3xl text-white">
+                {" "}
+                Software{" "}
+              </h3>{" "}
+              <br />
+              <h3 className="font-sans uppercase font-bold text-white text-3xl ">
+                {" "}
+                Engineer
+              </h3>
             </div>
 
             <div className="flex flex-col text-2xl  ">
