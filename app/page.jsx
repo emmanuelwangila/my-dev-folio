@@ -24,7 +24,7 @@ import { Link, Element } from "react-scroll";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const [formStatus, setFormStatus] = useState({ message: "", success: null });
 
@@ -107,7 +107,7 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : " "}>
-      <main className=" w-full  bg-gray-700 overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
+      <main className=" w-full  bg-gray-700 text-white overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
           <nav className="flex border-b  p-4   border-gray-500  rounded-md  justify-between   sm:flex-wrap  mb-12 ">
             <h1 className="text-md text-white  dark:text-white font-sans  cursor-pointer ">
