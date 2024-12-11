@@ -107,11 +107,11 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : " "}>
-      <main className=" w-full  bg-slate-100 overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
+      <main className=" w-full  bg-gray-700 overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
-          <nav className="flex border-b bg-blue-500 p-4   border-gray-500  rounded-md  justify-between   sm:flex-wrap  mb-12 ">
+          <nav className="flex border-b  p-4   border-gray-500  rounded-md  justify-between   sm:flex-wrap  mb-12 ">
             <h1 className="text-md text-white  dark:text-white font-sans  cursor-pointer ">
-              porfolio
+              Emmanuel Wangila
             </h1>
             {/* <About /> */}
             <div className="m">
@@ -120,13 +120,19 @@ export default function Home() {
                 <li className="text-2xl cursor-pointer dark:text-white">
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
                 </li>
-                <li className="bg-gradient-to-r text-sm  p-1   cursor-pointer from bg-white  dark:bg-white rounded-full border-none px-4 ml-8 text-blue-500">
+                <li className="bg-gradient-to-r text-sm  p-1   cursor-pointer text-white   border-none px-4 ml-8 ">
                   <Link to="projects" duration={100} smooth={true}>
                     {" "}
-                    Projects
+                    Home
                   </Link>
                 </li>
-                <li className="bg-gradient-to-r text-sm  from bg-white cursor-pointer  dark:bg-white p-1  rounded-full border-none px-4 ml-6 text-blue-500">
+                <li className="bg-gradient-to-r text-sm  from cursor-pointer  text-white p-1   border-none px-4 ml-6 ">
+                  <Link to="contact" duration={100} smooth={true}>
+                    {" "}
+                    About{" "}
+                  </Link>
+                </li>
+                <li className="bg-gradient-to-r text-sm  from  cursor-pointer   p-1   border-none px-4 ml-6 text-white">
                   <Link to="contact" duration={100} smooth={true}>
                     {" "}
                     Contact{" "}
