@@ -121,13 +121,13 @@ export default function Home() {
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
                 </li>
                 <li className="bg-gradient-to-r text-sm  p-1   cursor-pointer text-white   border-none px-4 ml-8 ">
-                  <Link to="projects" duration={100} smooth={true}>
+                  <Link to="/" duration={100} smooth={true}>
                     {" "}
                     Home
                   </Link>
                 </li>
                 <li className="bg-gradient-to-r text-sm  from cursor-pointer  text-white p-1   border-none px-4 ml-6 ">
-                  <Link to="contact" duration={100} smooth={true}>
+                  <Link to="about" duration={100} smooth={true}>
                     {" "}
                     About{" "}
                   </Link>
