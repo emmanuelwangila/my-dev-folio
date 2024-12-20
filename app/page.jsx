@@ -155,7 +155,7 @@ export default function Home() {
                   <AiFillTwitterCircle className="text-5xl" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://linkedin.com/in/emmanuel-wangila/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-500 transition-colors"
@@ -163,7 +163,7 @@ export default function Home() {
                   <AiFillLinkedin className="text-5xl" />
                 </a>
                 <a
-                  href="https://github.com/yourprofile"
+                  href="https://github.com/emmanuelwangila/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-500 transition-colors"
