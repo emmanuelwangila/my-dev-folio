@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: "TenderHub",
     image: tender,
-    link: "https://tender.example.com",
+    link: "https://mern-tender-system.onrender.com/",
     description:
       "Tender is a platform for managing and submitting tenders online.",
   },
