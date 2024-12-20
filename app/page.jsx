@@ -119,19 +119,19 @@ export default function Home() {
                 <li className="text-2xl cursor-pointer dark:text-white">
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
                 </li>
-                <li className="bg-gradient-to-r text-sm  p-1   cursor-pointer text-white   border-none px-4 ml-8 ">
+                <li className="bg-gradient-to-r bg-blue-500 font-sans  font-bold hover:bg-blue-700  rounded-md hover:text-bg-700 text-sm  p-1   cursor-pointer text-white   border-none px-4 ml-8 ">
                   <Link to="/" duration={100} smooth={true}>
                     {" "}
                     Home
                   </Link>
                 </li>
-                <li className="bg-gradient-to-r text-sm  from cursor-pointer  text-white p-1   border-none px-4 ml-6 ">
+                <li className="bg-gradient-to-r text-sm font-bold font-sans  bg-blue-500 rounded-md  hover:bg-blue-700  from cursor-pointer  text-white p-1   border-none px-4 ml-6 ">
                   <Link to="about" duration={100} smooth={true}>
                     {" "}
                     About{" "}
                   </Link>
                 </li>
-                <li className="bg-gradient-to-r text-sm  from  cursor-pointer   p-1   border-none px-4 ml-6 text-white">
+                <li className="bg-gradient-to-r bg-blue-500 font-bold  font-sans rounded-md  hover:bg-blue-700 text-sm  from  cursor-pointer   p-1   border-none px-4 ml-6 text-white">
                   <Link to="contact" duration={100} smooth={true}>
                     {" "}
                     Contact{" "}
@@ -142,7 +142,7 @@ export default function Home() {
           </nav>
           <div className="flex flex-col font-sans text-center">
             <div className="w-full h-full m-3 p-3 font-sans">
-              <h3 className="font-sans uppercase font-bold text-3xl text-white">
+              <h3 className="font-sans text-blue-500  font-bold text-3xl text-">
                 Software Engineer
               </h3>
               <div className="flex justify-center gap-8 mt-4">
