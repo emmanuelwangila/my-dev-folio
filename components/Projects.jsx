@@ -6,127 +6,92 @@ import anime from "../public/anime.jpg";
 import manu from "../public/manu.jpg";
 import laptop from "../public/laptop.jpg";
 import ayepo from "../public/ayepo-logo.jpg";
-import { Link } from "react-scroll";
+
+const projects = [
+  {
+    id: 1,
+    title: "3D Meta",
+    image: forlio,
+    link: "https://forlio.example.com",
+    description: "A 3D Meta Landing Page for Virtual Reality (Vr)",
+  },
+  {
+    id: 2,
+    title: "TenderHub",
+    image: tender,
+    link: "https://tender.example.com",
+    description:
+      "Tender is a platform for managing and submitting tenders online.",
+  },
+  {
+    id: 3,
+    title: "Anime",
+    image: anime,
+    link: "https://anime.example.com",
+    description:
+      "Anime is a streaming service for watching anime series and movies.",
+  },
+  {
+    id: 4,
+    title: "Manu",
+    image: manu,
+    link: "https://manu.example.com",
+    description:
+      "Manu is a manufacturing management system for tracking production processes.",
+  },
+  {
+    id: 5,
+    title: "Laptop",
+    image: laptop,
+    link: "https://laptop.example.com",
+    description:
+      "Laptop is an e-commerce platform for buying and selling laptops.",
+  },
+  {
+    id: 6,
+    title: "Ayepo",
+    image: ayepo,
+    link: "https://ayepo.example.com",
+    description:
+      "Ayepo is a social networking site for connecting with friends and family.",
+  },
+];
 
 const Projects = () => {
   return (
-    <div className=" flex  flex-col font-sans  sm:mx-auto  ">
-      <div className=" flex mx-auto">
-        <button className="  text-white bg-blue-500 rounded-full  font-sans text-2xl m-2 p-2 ">
+    <div className="flex flex-col items-center p-6 bg-gray-800 min-h-screen">
+      <div className="mb-8">
+        <h1 className="text-blue-500 text-3xl font-sans  font-bold">
           Projects
-        </button>
+        </h1>
       </div>
-
-      <div className="  lg:flex lg:flex-row md:mx-auto sm:mx-auto">
-        <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
-          <h2 className=" text-blue-800 "> TENDER MANAGEMENT SYSTEM </h2>
-          <div className="">
-            <p className="dark:text-white">
-              A modern procurement and automated tender management system , with
-              automation through emailng and onlne application of tenders at
-              large .
-            </p>
-            <div className="rounded-md flex justify-center w-[250px] h-[250px]">
-              <Link></Link>
-              <Image src={laptop} className="rounded-md " />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {projects.map((project) => (
+          <div
+            key={project.id}
+            className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform"
+          >
+            <Image
+              src={project.image}
+              alt={project.title}
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="font-bold flex justify-center  font-sans text-teal-600 border border-b-2 rounded-md">
+                {project.title}
+              </h3>
+              <p className="text-blue-500 font-sans ">{project.description}</p>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 text-blue-500 hover:text-blue-700 transition-colors"
+              >
+                Learn More
+              </a>
             </div>
-
-            <button className="dark:text-white flex bg-green-500 m-3 p-3  flex-col rounded-md">
-              <span className="text-white">
-                {" "}
-                <a href="https://mern-tender-system.onrender.com/sign-in">
-                  Visit the system
-                </a>
-              </span>
-            </button>
           </div>
-        </div>
-
-        <div className="flex flex-col hover:bg-blue-500 hover:text-white cursor-pointer  gap-4 border border-gray-500 rounded-md m-2 p-2   ">
-          <h2 className=" text-blue-800 "> KaziQuest </h2>
-          <div className="">
-            <p className="dark:text-white">
-              This is an Applicant Tracking System , web application that
-              enables employe's to hire the best talent from a group of
-              applicants , applying for a specific job.
-            </p>
-            <div className="rounded-md flex justify-center h-[250px]">
-              <Link></Link>
-              <Image src={tender} className="rounded-md " />
-            </div>
-
-            <button className="dark:text-white flex bg-green-500 m-3 p-3  flex-col rounded-md">
-              <span className="text-white">
-                {" "}
-                <a href="https://www.kaziquest.com/">Visit the system</a>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-500 hover:text-white cursor-pointer flex-col  gap-4 border border-gray-500 rounded-md m-2 p-2  ">
-          <h2 className="text-blue-800 uppercase  ">3D Meta Landing Page</h2>
-          <div className="w-full  h-[250px] flex justify-center rounded-md">
-            <Link to=" http://metacom.vercel.app/"></Link>
-            <Image src={forlio} className="rounded-md " />
-          </div>
-
-          <div className="">
-            <p className="dark:text-white">Virtual Reality Landing Page</p>
-            <button className="dark:text-white  flex flex-col m-4 p-4  rounded-md bg-green-500 ">
-              <span className="text-white">
-                <a href="http://metacom.vercel.app/">Visit the system</a>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div className="flex cursor-pointer hover:text-white hover:bg-blue-500 flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
-          <h2 className="text-blue-800 ">Movie ANimation Clone</h2>
-          <p className="dark:text-white ">
-            Animation Clone like hulu, renders movie cards from an api endpoint
-          </p>
-          <div>
-            <div className="rounded-md w-full h-[250px] flex justify-center ">
-              <Link></Link>
-              <Image
-                src={anime}
-                alt="animation-clone "
-                className="rounded-md "
-              />
-            </div>
-
-            <button className="dark:text-white bg-green-500 m-3 p-3 rounded-md flex flex-col ">
-              <span className="text-white">
-                <a href="https://animation-clone-xi.vercel.app/">
-                  Visit the system
-                </a>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div className="flex cursor-pointer hover:bg-blue-500 hover:text-white flex-col gap-4 border border-gray-500 m-2 p-2 rounded-md ">
-          <h2 className="text-blue-800 "> Tasks Aplication App</h2>
-          <p className="dark:text-white ">
-            Simple task application for managing priority tasks
-          </p>
-          <div>
-            <div className="rounded-md w-full h-[250px] flex justify-center ">
-              <Link></Link>
-              <Image
-                src={manu}
-                alt="animation-clone "
-                className="rounded-md "
-              />
-            </div>
-
-            <button className="dark:text-white bg-green-500 m-3 p-3 rounded-md flex flex-col ">
-              <span className="text-white">
-                <a href="https://pinia-tasks-iota.vercel.app/">
-                  Visit the system
-                </a>
-              </span>
-            </button>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
