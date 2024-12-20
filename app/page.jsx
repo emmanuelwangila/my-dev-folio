@@ -288,7 +288,7 @@ export default function Home() {
         </section> */}
         <Element name="contact">
           <div className=" flex justify-center ">
-            <button className="text-white bg-blue-500 rounded-full  font-sans mx-3 py-3 lg:text-2xl sm:text-sm dark:text-white ">
+            <button className="text-white bg-blue-500 rounded-md font-bold hover:bg-blue-700  font-sans mx-3 py-3 lg:text-2xl sm:text-sm dark:text-white ">
               Contact Me
             </button>
           </div>
@@ -371,6 +371,15 @@ export default function Home() {
                 pauseOnHover
               />
             </div>
+            {formStatus.message && (
+              <p
+                className={`text-center ${
+                  formStatus.success ? "text-green-600" : "text-red-600"
+                }`}
+              >
+                {formStatus.message}
+              </p>
+            )}
           </section>
         </Element>
 
