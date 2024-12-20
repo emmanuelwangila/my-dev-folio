@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     title: "Anime",
     image: anime,
-    link: "https://anime.example.com",
+    link: "https://animation-clone-xi.vercel.app/",
     description:
       "Anime is a streaming service for watching anime series and movies.",
   },
@@ -49,11 +49,11 @@ const projects = [
   },
   {
     id: 6,
-    title: "Ayepo",
+    title: "Ayepo Africa",
     image: ayepo,
-    link: "https://ayepo.example.com",
+    link: "https://ayepoafrica.org/",
     description:
-      "Ayepo is a social networking site for connecting with friends and family.",
+      "Ayepo Africa is an Organization for youth empowerment and providing support to youth programs ",
   },
 ];
 
