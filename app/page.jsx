@@ -287,13 +287,12 @@ export default function Home() {
           </div>
         </section> */}
         <Element name="contact">
-          <section id="contact" className="font-sans">
-            <div className="flex justify-center ">
-              <button className="text-white bg-blue-500 rounded-full  font-sans mx-3 py-3 lg:text-2xl sm:text-sm dark:text-white ">
-                Contact Me
-              </button>
-            </div>
-
+          <div className=" flex justify-center ">
+            <button className="text-white bg-blue-500 rounded-full  font-sans mx-3 py-3 lg:text-2xl sm:text-sm dark:text-white ">
+              Contact Me
+            </button>
+          </div>
+          <section id="contact" className="font-sans flex justify-center">
             <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-gray-400">
               <ToastContainer
                 position="top-right"
@@ -309,7 +308,7 @@ export default function Home() {
               <form
                 onSubmit={handleFormSubmit}
                 method="POST"
-                className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-start items-center  dark:bg-gray-800  rounded-md  h-full mt-4 py-4 "
+                className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-center items-center  dark:bg-gray-800  rounded-md  h-full mt-4 py-4 "
               >
                 <input
                   className="p-3 m-2  w-full rounded-md   bg-gray-100   border border-blue-300"
