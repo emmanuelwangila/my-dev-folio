@@ -6,6 +6,7 @@ import anime from "../public/anime.jpg";
 import manu from "../public/manu.jpg";
 import laptop from "../public/laptop.jpg";
 import ayepo from "../public/ayepo-logo.jpg";
+import kaziquest from "../public/KaziQuest.png";
 
 const projects = [
   {
@@ -33,19 +34,18 @@ const projects = [
   },
   {
     id: 4,
-    title: "Manu",
+    title: "ToDo ",
     image: manu,
     link: "https://manu.example.com",
-    description:
-      "Manu is a manufacturing management system for tracking production processes.",
+    description: "An application for to do tasks based on priority",
   },
   {
     id: 5,
-    title: "Laptop",
-    image: laptop,
-    link: "https://laptop.example.com",
+    title: "KaziQuest",
+    image: kaziquest,
+    link: "https://kaziquest.com/",
     description:
-      "Laptop is an e-commerce platform for buying and selling laptops.",
+      " KaziQuest is a job search platform connecting job seekers with employers",
   },
   {
     id: 6,
@@ -71,11 +71,18 @@ const Projects = () => {
             key={project.id}
             className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform"
           >
-            <Image
-              src={project.image}
-              alt={project.title}
-              className="w-full h-48 object-cover"
-            />
+            <div
+              className={`w-full h-48 ${
+                project.title === "KaziQuest" ? "bg-blue-500" : ""
+              }`}
+            >
+              <Image
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover"
+              />
+            </div>
+
             <div className="p-4">
               <h3 className="font-bold flex justify-center  font-sans text-teal-600 border border-b-2 rounded-md">
                 {project.title}
