@@ -36,7 +36,7 @@ const projects = [
     id: 4,
     title: "ToDo ",
     image: manu,
-    link: "https://manu.example.com",
+    link: "https://pinia-tasks-iota.vercel.app/",
     description: "An application for to do tasks based on priority",
   },
   {
