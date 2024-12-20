@@ -140,71 +140,37 @@ export default function Home() {
               </ul>
             </div>
           </nav>
-
-          <div className=" flex flex-col font-sans   text-center">
-            {/* <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Emmanuel Wangila",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                " Software Engineer ",
-                1000,
-                "Stay in touch",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              // style={{
-              //   fontSize: "3em",
-              //   color: "blue",
-              //   display: "flex",
-              //   font: "bold",
-              //   fontFamily: "sans",
-              //   backgroundColor: "bg-500",
-              //   margin: "5px",
-              //   justifyContent: "center",
-              //   justifyItems: "center",
-              // }}
-              repeat={Infinity}
-              className="font-sans text-3xl text-blue-500  "
-            /> */}
-
-            <div className="w-full h-full m-3 p-3 font-sans ">
+          <div className="flex flex-col font-sans text-center">
+            <div className="w-full h-full m-3 p-3 font-sans">
               <h3 className="font-sans uppercase font-bold text-3xl text-white">
-                {" "}
-                Software{" "}
-              </h3>{" "}
-              <br />
-              <h3 className="font-sans uppercase font-bold text-white text-3xl ">
-                {" "}
-                Engineer
+                Software Engineer
               </h3>
-            </div>
-
-            <div className="flex flex-col text-2xl  ">
-              <h1 className="text-blue-500 font-sans ">Social Links : </h1>
-            </div>
-          </div>
-
-          <div className=" flex cursor-pointer justify-center gap-16 py-3 text-gray-600">
-            <div className="border border-blue-500 rounded-full m-1 p-1 ">
-              <a href={"https://twitter.com/manuelwangila"}>
-                {" "}
-                <AiFillTwitterCircle className="lg:text-5xl hover:text-blue-500 md:text-5xl  sm:text-7xl " />{" "}
-              </a>
-            </div>
-            <div className="border border-blue-500 rounded-full m-1 p-1 ">
-              <a href={"https://www.linkedin.com/in/emmanuel-wangila/"}>
-                {" "}
-                <AiFillLinkedin className="lg:text-5xl hover:text-blue-500 md:text-5xl sm:text-4xl" />{" "}
-              </a>
-            </div>
-
-            <div className="border border-blue-500 rounded-full m-1 p-1 ">
-              <a href={"https://github.com/emmanuelwangila"}>
-                {" "}
-                <AiFillGithub className="lg:text-5xl hover:text-blue-500  sm:text-4xl" />{" "}
-              </a>
+              <div className="flex justify-center gap-8 mt-4">
+                <a
+                  href="https://twitter.com/manuelwangila"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-500 transition-colors"
+                >
+                  <AiFillTwitterCircle className="text-5xl" />
+                </a>
+                <a
+                  href="https://linkedin.com/in/yourprofile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-500 transition-colors"
+                >
+                  <AiFillLinkedin className="text-5xl" />
+                </a>
+                <a
+                  href="https://github.com/yourprofile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-500 transition-colors"
+                >
+                  <AiFillGithub className="text-5xl" />
+                </a>
+              </div>
             </div>
           </div>
 
