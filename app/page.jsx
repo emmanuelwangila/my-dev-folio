@@ -292,8 +292,73 @@ export default function Home() {
               Contact Me
             </button>
           </div>
-          <section id="contact" className="font-sans flex justify-center">
-            <div className="flex lg:w-[60%] m-2 p-2   md:w-[60%] md:m-2  justify-center mt-5 mb-5 rounded-md  border-2 border-gray-400">
+          <section id="contact" className="font-sans flex justify-center mt-10">
+            <div className="flex flex-col lg:w-[60%] md:w-[60%] m-2 p-6 bg-white dark:bg-gray-800 rounded-md shadow-lg border border-gray-300 dark:border-gray-700">
+              <h2 className="text-2xl font-bold text-center text-gray-800 dark:text-white mb-6">
+                Get in Touch
+              </h2>
+              <form
+                onSubmit={handleFormSubmit}
+                method="POST"
+                className="w-full"
+              >
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2"
+                    htmlFor="name"
+                  >
+                    Name
+                  </label>
+                  <input
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-300 dark:bg-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2"
+                    htmlFor="email"
+                  >
+                    Email
+                  </label>
+                  <input
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-300 dark:bg-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2"
+                    htmlFor="message"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-gray-300 dark:bg-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <div className="flex items-center justify-center">
+                  <button
+                    className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
               <ToastContainer
                 position="top-right"
                 autoClose={5000}
@@ -305,52 +370,6 @@ export default function Home() {
                 draggable
                 pauseOnHover
               />
-              <form
-                onSubmit={handleFormSubmit}
-                method="POST"
-                className="flex m-2  lg:w-[70%] md:w-[60%] sm:w-[100%] flex-col justify-center items-center  dark:bg-gray-800  rounded-md  h-full mt-4 py-4 "
-              >
-                <input
-                  className="p-3 m-2  w-full rounded-md   bg-gray-100   border border-blue-300"
-                  id="name"
-                  name="name"
-                  placeholder="Enter  your name"
-                  required
-                ></input>
-                <input
-                  className="name p-3 m-2  w-full bg-gray-100 rounded-md border border-blue-300 "
-                  id="phone"
-                  name="phone"
-                  placeholder="Enter your phoneNumber"
-                  required
-                ></input>
-                <input
-                  className="name p-3 m-2 w-full border border-blue-300 bg-gray-100 rounded-md"
-                  id="location"
-                  name="location"
-                  placeholder="Enter your location"
-                  required
-                ></input>
-                <textarea
-                  name="message"
-                  className="p-3 m-2 w-full bg-gray-200 border border-blue-300 rounded-md  "
-                  placeholder="Input your message here "
-                  required
-                ></textarea>
-                <button className="p-3 m-2 dark:bg-teal-600 bg-blue-500 text-white flex justify-center w-[50%] rounded-full ">
-                  Submit
-                </button>
-
-                {formStatus.message && (
-                  <p
-                    className={`text-center ${
-                      formStatus.success ? "text-green-600" : "text-red-600"
-                    }`}
-                  >
-                    {formStatus.message}
-                  </p>
-                )}
-              </form>
             </div>
           </section>
         </Element>
