@@ -32,6 +32,18 @@ const About = () => {
         <h2 className="text-2xl font-bold font-sans text-blue-500 mb-4">
           Technologies I Use
         </h2>
+        <div className="flex justify-center">
+          <p className="text-lg text-white font-sans mb-6 max-w-2xl">
+            I have experience working with a variety of technologies and
+            frameworks to build robust and scalable applications. From front-end
+            libraries like React and Vue.js to back-end frameworks like Django
+            and Spring, I am proficient in using these tools to create seamless
+            user experiences. I also have expertise in using tools like Netlify
+            for deployment and Tailwind CSS for styling. Below are some of the
+            technologies I frequently use:
+          </p>
+        </div>
+
         <div className="flex flex-wrap justify-center gap-8 mt-4">
           <div className="p-4 bg-gray-100 rounded-full shadow-lg hover:bg-blue-100 transition-colors">
             <SiReact className="text-5xl text-gray-700 hover:text-blue-500 transition-transform transform hover:scale-125" />
