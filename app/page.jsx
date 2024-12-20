@@ -116,7 +116,6 @@ export default function Home() {
             {/* <About /> */}
             <div className="m">
               <ul className="flex items-end m-0.5 ">
-                .
                 <li className="text-2xl cursor-pointer dark:text-white">
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} />{" "}
                 </li>
@@ -224,7 +223,7 @@ export default function Home() {
           </section>
         </Element>
 
-        <section>
+        {/* <section>
           <div>
             <div className="flex justify-center  ">
               <button className="lg:text-2xl sm:text-sm mx-3 py-3 flex  justify-center lg:p-3 sm:p-1    text-white bg-blue-500 rounded-full   font-sans  dark:text-white">
@@ -286,7 +285,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <Element name="contact">
           <section id="contact" className="font-sans">
             <div className="flex justify-center ">
