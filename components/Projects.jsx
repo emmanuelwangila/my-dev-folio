@@ -12,7 +12,7 @@ const projects = [
     id: 1,
     title: "3D Meta",
     image: forlio,
-    link: "https://forlio.example.com",
+    link: "https://metacom.vercel.app/",
     description: "A 3D Meta Landing Page for Virtual Reality (Vr)",
   },
   {
