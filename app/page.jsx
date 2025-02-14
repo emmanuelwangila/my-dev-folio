@@ -54,17 +54,11 @@ export default function Home() {
 
     const formData = {
       name: e.target.name.value,
-      phone: e.target.phone.value,
-      location: e.target.location.value,
+      email: e.target.email.value,
       message: e.target.message.value,
     };
 
-    if (
-      !formData.name ||
-      !formData.phone ||
-      !formData.location ||
-      !formData.message
-    ) {
+    if (!formData.name || !formData.email || !formData.message) {
       setFormStatus({ message: "All fields are required.", success: false });
       toast.error("All fields are required ");
       return;
@@ -110,7 +104,7 @@ export default function Home() {
       <main className=" w-full  bg-gray-700 text-white overflow-hidden dark:bg-gray-800  lg:w-full md:w-full  ">
         <section className="min-h-screen rounded-md   w-full ">
           <nav className="flex border-b  p-4   border-gray-500  rounded-md  justify-between   sm:flex-wrap  mb-12 ">
-            <h1 className="text-md text-white  dark:text-white font-sans  cursor-pointer ">
+            <h1 className="text-md text-blue-500   font-sans  cursor-pointer ">
               Emmanuel Wangila
             </h1>
             {/* <About /> */}
