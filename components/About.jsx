@@ -36,11 +36,12 @@ const About = () => {
           <p className="text-lg text-white font-sans mb-6 max-w-2xl">
             I have experience working with a variety of technologies and
             frameworks to build robust and scalable applications. From front-end
-            libraries like React and Vue.js to back-end frameworks like Django
-            and Spring, I am proficient in using these tools to create seamless
-            user experiences. I also have expertise in using tools like Netlify
-            for deployment and Tailwind CSS for styling. Below are some of the
-            technologies I frequently use:
+            libraries like React, Angular and Vue.js to back-end frameworks like
+            Django, Express.js (Node.js) and Spring Boot, I am proficient in
+            using these tools to create seamless user experiences. I also have
+            expertise in using tools like Docker for containerization, Jenkins
+            and Github Actions for CI/CD pipelines, and Tailwind CSS for
+            styling. Below are some of the technologies I frequently use:
           </p>
         </div>
 
