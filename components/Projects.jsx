@@ -10,6 +10,7 @@ import anime from "../public/anime.jpg";
 import manu from "../public/manu.jpg";
 import ayepo from "../public/ayepo-logo.jpg";
 import kaziquest from "../public/KaziQuest.png";
+import tripPlanner from "../public/trip.jpg"; // Add this import
 
 const projects = [
   {
@@ -36,6 +37,17 @@ const projects = [
   },
   {
     id: 3,
+    title: "Trip Planner App",
+    image: tripPlanner, // Using the imported image
+    link: "https://trip-app-planner.vercel.app/",
+    description: "Comprehensive travel planning application with itinerary management, budget tracking, and destination research",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Firebase"],
+    category: "fullstack",
+    featured: true,
+    github: "https://github.com/yourusername/trip-planner"
+  },
+  {
+    id: 4,
     title: "AnimeStream",
     image: anime,
     link: "https://animation-clone-xi.vercel.app/",
@@ -46,7 +58,7 @@ const projects = [
     github: "https://github.com/yourusername/anime-stream"
   },
   {
-    id: 4,
+    id: 5,
     title: "TaskMaster Pro",
     image: manu,
     link: "https://pinia-tasks-iota.vercel.app/",
@@ -57,7 +69,7 @@ const projects = [
     github: "https://github.com/yourusername/taskmaster"
   },
   {
-    id: 5,
+    id: 6,
     title: "KaziQuest",
     image: kaziquest,
     link: "https://kaziquest.com/",
@@ -68,7 +80,7 @@ const projects = [
     github: "https://github.com/yourusername/kaziquest"
   },
   {
-    id: 6,
+    id: 7,
     title: "Ayepo Africa",
     image: ayepo,
     link: "https://ayepoafrica.org/",
@@ -127,11 +139,11 @@ const Projects = ({ darkMode = true }) => {
   };
 
   return (
-    <div className={`min-h-screen rounded-md py-16 px-4 sm:px-6 lg:px-8 transition-colors duration-300 $
+    <div className={`min-h-screen rounded-md py-16 px-4 sm:px-6 lg:px-8 transition-colors duration-300 ${
       darkMode 
         ? "bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900" 
         : "bg-gradient-to-br from-blue-50 via-white to-purple-50"
-    `}>
+    }`}>
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
