@@ -22,8 +22,7 @@ const projects = [
     technologies: ["React", "Three.js", "Tailwind CSS", "Framer Motion"],
     category: "frontend",
     featured: true,
-    github: "https://github.com/yourusername/metacom"
-  },
+    },
   {
     id: 2,
     title: "TenderHub",
@@ -33,7 +32,6 @@ const projects = [
     technologies: ["MERN Stack", "JWT", "Redux", "Material UI"],
     category: "fullstack",
     featured: true,
-    github: "https://github.com/yourusername/tenderhub"
   },
   {
     id: 3,
@@ -41,10 +39,10 @@ const projects = [
     image: tripPlanner, // Using the imported image
     link: "https://trip-app-planner.vercel.app/",
     description: "Comprehensive travel planning application with itinerary management, budget tracking, and destination research",
-    technologies: ["Next.js", "React", "Tailwind CSS", "Firebase"],
+    technologies: ["Next.js", "React", "Tailwind CSS", "Python", "Dj'ango Rest Framework", "Firebase"],
     category: "fullstack",
     featured: true,
-    github: "https://github.com/yourusername/trip-planner"
+
   },
   {
     id: 4,
@@ -55,7 +53,6 @@ const projects = [
     technologies: ["Vue.js", "Pinia", "TypeScript", "Vite"],
     category: "frontend",
     featured: false,
-    github: "https://github.com/yourusername/anime-stream"
   },
   {
     id: 5,
@@ -66,7 +63,6 @@ const projects = [
     technologies: ["Vue 3", "Pinia", "Firebase", "Tailwind CSS"],
     category: "frontend",
     featured: false,
-    github: "https://github.com/yourusername/taskmaster"
   },
   {
     id: 6,
@@ -77,19 +73,17 @@ const projects = [
     technologies: ["Nuxt.js", "Django", "PostgreSQL", "Docker"],
     category: "fullstack",
     featured: true,
-    github: "https://github.com/yourusername/kaziquest"
   },
-  {
-    id: 7,
-    title: "Ayepo Africa",
-    image: ayepo,
-    link: "https://ayepoafrica.org/",
-    description: "Youth empowerment organization platform with program management and community features",
-    technologies: ["Next.js", "Strapi", "Stripe", "Cloudinary"],
-    category: "fullstack",
-    featured: true,
-    github: "https://github.com/yourusername/ayepo-africa"
-  },
+  // {
+  //   id: 7,
+  //   title: "Ayepo Africa",
+  //   image: ayepo,
+  //   link: "https://ayepoafrica.org/",
+  //   description: "Youth empowerment organization platform with program management and community features",
+  //   technologies: ["Next.js", "Strapi", "Stripe", "Cloudinary"],
+  //   category: "fullstack",
+  //   featured: true,
+  // },
 ];
 
 const technologyIcons = {
